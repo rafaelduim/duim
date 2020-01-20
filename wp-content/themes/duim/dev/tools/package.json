@@ -1,0 +1,47 @@
+{
+  "name": "psn-sass",
+  "version": "2.0.0",
+  "description": "Compilação no css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.2.0",
+    "bootstrap": "*",
+    "counterup": "^1.0.2",
+    "gulp": "*",
+    "html5-boilerplate": "*",
+    "magnific-popup": "^1.1.0",
+    "natives": "^1.1.6",
+    "owl-carousel-2": "0.0.3",
+    "owl.carousel": "^2.2.0",
+    "perfect-scrollbar": "^0.8.1",
+    "popper.js": "^1.12.5",
+    "prismjs": "^1.8.1",
+    "require-dir": "^1.0.0",
+    "toastr": "^2.1.4",
+    "waypoints": "^4.0.1"
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-clean": "*",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-cssmin": "*",
+    "gulp-imagemin": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "4.0.2",
+    "gulp-sourcemaps": "*",
+    "gulp-task-listing": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "^3.0.8",
+    "gulp.spritesmith": "*",
+    "merge-stream": "*",
+    "vinyl-buffer": "*"
+  }
+}

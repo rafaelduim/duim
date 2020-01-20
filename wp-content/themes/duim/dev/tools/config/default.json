@@ -1,0 +1,33 @@
+{
+    "config" : {
+        "image_css": "../images/sprite/",
+        "dist": {
+            "base": "./../../dist/assets/",
+            "css" : "./../../dist/assets/css",
+            "images" : "./../../dist/assets/images",
+            "plugins" : "./../../dist/assets/plugins",
+            "js" : "./../../dist/assets/js",
+            "fonts" : "./../../dist/assets/fonts"
+        },
+        "dev":{
+            "base": "./../",
+            "scss": "./../scss",
+            "images": "./../images",
+            "plugins": [
+                "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+                "./node_modules/html5-boilerplate/dist/js/vendor/modernizr-*.min.js",
+                "./node_modules/aos/dist/aos.js",
+                "./../script/jquery.touchSwipe.min.js",
+                "./../script/bootstrap-touch-slider-min.js",
+                "./node_modules/owl.carousel/dist/owl.carousel.min.js",
+                "./node_modules/toastr/build/toastr.min.js"
+            ],
+            "js": "./../script",
+            "fonts": "./../fonts"
+        },
+        "names": {
+            "sprite": "sprite.png",
+            "sprite_scss": "_sprites.scss"
+        }
+    }
+}

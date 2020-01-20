@@ -1,0 +1,39 @@
+/*
+Template Name: Wrakit UI Kit
+Author: wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+/**
+ * Table Of Content
+ *
+ * 	1. Globals
+ *	2. Headers
+ *	3. Navigations
+ *	4. Banners
+ *	5. Footers
+ *	6. app
+ *	7. Widgets 
+ *	8. Custom Templates
+ */
+
+@import '../tools/node_modules/bootstrap/scss/bootstrap-reboot';
+@import '../tools/node_modules/bootstrap/scss/bootstrap-grid';
+@import '../tools/node_modules/bootstrap/scss/bootstrap';
+@import '../tools/node_modules/toastr/build/toastr.css';
+
+
+
+@import '_variable';
+@import 'animate'; 
+@import './../fonts/font-awesome/scss/font-awesome.scss'; 
+@import "./../fonts/iconmind/iconmind.scss";
+@import './../fonts/simple-line-icons/scss/simple-line-icons.scss';
+@import './../fonts/themify-icons/themify-icons.css';
+@import '_spinner.scss'; 
+@import '_app.scss';  
+@import '_common.scss';  
+@import '_responsive.scss';    
+@import '_bootstrap-touch-slider';
+@import 'yourstyle';    

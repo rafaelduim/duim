@@ -1,0 +1,27 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+
+/*============================================================== 
+ You can write your style here and overwrite our style
+ ============================================================== */
+ #toast-container > .toast-info {
+    background-repeat: no-repeat;
+    background-position: 10px center;
+  }
+  #toast-container > .toast-error {
+    background-repeat: no-repeat;
+    background-position: 10px center;
+  }
+  #toast-container > .toast-success {
+    background-repeat: no-repeat;
+    background-position: 10px center;
+  }
+  #toast-container > .toast-warning {
+    background-repeat: no-repeat;
+    background-position: 10px center;
+  }
