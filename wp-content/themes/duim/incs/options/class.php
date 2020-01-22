@@ -2,11 +2,11 @@
 
 class PsnThemes {
     function __construct() {
-        $this->template_name = 'NOME DO PROJETO';
-        $this->slug = 'slug';
+        $this->template_name = 'Duim';
+        $this->slug = 'duim';
         $this->url_site = get_bloginfo("url");
         $this->url_template = get_template_directory_uri();
-   }
+    }
 
    public function getTemplateName(){ 
         return $this->template_name;
@@ -45,52 +45,205 @@ class PsnThemes {
                         'settings' => 'psn_themes_logo',
                     ) 
                 )
-            );
-            
-            $wp_customize->add_setting('psn_themes_copyright');
-            $wp_customize->add_control(
-                'psn_themes_copyright', 
-                array(
-                    'label'    => __( 'Texto do Rodapé', '' ),
-                    'section'  => 'psn_themes_options',
-                    'settings' => 'psn_themes_copyright',
-                    'type'     => 'text'
-                )
-            );          
+            );     
             
         }
         add_action('customize_register', 'psn_theme_settings');
 
         function psn_theme_settings_social($wp_customize) {
 
-            $wp_customize->add_section( 'psn_themes_options_social' , array(
+            $wp_customize->add_section( 'psn_theme_settings_social' , array(
                 'title'      => __( 'PsnThemes - Mídias Sociais', '' ),
                 'priority'   => 30,
             ) );
+
             
-            $social_media = array(
-                'psn_themes_facebook' => __( 'Link do Facebook', '' ),
-                'psn_themes_instagram' => __( 'Link do Instagram', '' ),
-                'psn_themes_twitter' => __( 'Link do Twitter', '' ),
-                'psn_themes_youtube' => __( 'Link do Youtube', '' )
+            $optionsArray = array(
+                array(
+                    'key' => 'psn_themes_social_facebook',
+                    'text' => __( 'Facebook', '' ),
+                    'type' => 'url'
+                ),
+                array(
+                    'key' => 'psn_themes_social_twitter',
+                    'text' => __( 'Twitter', '' ),
+                    'type' => 'url'
+                ),
+                array(
+                    'key' => 'psn_themes_social_instagram',
+                    'text' => __( 'Instagam', '' ),
+                    'type' => 'url'
+                ),
+                array(
+                    'key' => 'psn_themes_social_linkedin',
+                    'text' => __( 'Linkedin', '' ),
+                    'type' => 'url'
+                )
             );
 
-            foreach ($social_media as $key => $value) {
-                $wp_customize->add_setting($key);
+            foreach ($optionsArray as $value) {
+                $wp_customize->add_setting($value['key']);
                 $wp_customize->add_control(
-                    $key, 
+                    $value['key'], 
                     array(
-                        'label'    => $value,
-                        'section'  => 'psn_themes_options_social',
-                        'settings' => $key,
-                        'type'     => 'text'
+                        'label'    => $value['text'],
+                        'section'  => 'psn_theme_settings_social',
+                        'settings' => $value['key'],
+                        'type'     => $value['type']
                     )
                 ); 
-            }
-            
-            
+            }        
         }
         add_action('customize_register', 'psn_theme_settings_social');
+
+        function psn_theme_settings_about($wp_customize) {
+
+            $wp_customize->add_section( 'psn_theme_settings_about' , array(
+                'title'      => __( 'PsnThemes - Quem Somos', '' ),
+                'priority'   => 30,
+            ) );
+
+            
+            $optionsArray = array(
+                array(
+                    'key' => 'psn_themes_about_title',
+                    'text' => __( 'Título', '' ),
+                    'type' => 'text'
+                ),
+                array(
+                    'key' => 'psn_themes_about_excerpt',
+                    'text' => __( 'Chamada', '' ),
+                    'type' => 'text'
+                )
+            );
+
+            foreach ($optionsArray as $value) {
+                $wp_customize->add_setting($value['key']);
+                $wp_customize->add_control(
+                    $value['key'], 
+                    array(
+                        'label'    => $value['text'],
+                        'section'  => 'psn_theme_settings_about',
+                        'settings' => $value['key'],
+                        'type'     => $value['type']
+                    )
+                ); 
+            }        
+        }
+        add_action('customize_register', 'psn_theme_settings_about');
+
+        function psn_theme_settings_services($wp_customize) {
+
+            $wp_customize->add_section( 'psn_theme_settings_services' , array(
+                'title'      => __( 'PsnThemes - Serviços', '' ),
+                'priority'   => 30,
+            ) );
+
+            
+            $optionsArray = array(
+                array(
+                    'key' => 'psn_themes_services_title',
+                    'text' => __( 'Título', '' ),
+                    'type' => 'text'
+                ),
+                array(
+                    'key' => 'psn_themes_services_excerpt',
+                    'text' => __( 'Chamada', '' ),
+                    'type' => 'text'
+                )
+            );
+
+            foreach ($optionsArray as $value) {
+                $wp_customize->add_setting($value['key']);
+                $wp_customize->add_control(
+                    $value['key'], 
+                    array(
+                        'label'    => $value['text'],
+                        'section'  => 'psn_theme_settings_services',
+                        'settings' => $value['key'],
+                        'type'     => $value['type']
+                    )
+                ); 
+            }        
+        }
+        add_action('customize_register', 'psn_theme_settings_services');
+
+        function psn_theme_settings_projects($wp_customize) {
+
+            $wp_customize->add_section( 'psn_theme_settings_projects' , array(
+                'title'      => __( 'PsnThemes - Projetos', '' ),
+                'priority'   => 30,
+            ) );
+
+            
+            $optionsArray = array(
+                array(
+                    'key' => 'psn_themes_projects_title',
+                    'text' => __( 'Título', '' ),
+                    'type' => 'text'
+                ),
+                array(
+                    'key' => 'psn_themes_projects_excerpt',
+                    'text' => __( 'Chamada', '' ),
+                    'type' => 'text'
+                )
+            );
+
+            foreach ($optionsArray as $value) {
+                $wp_customize->add_setting($value['key']);
+                $wp_customize->add_control(
+                    $value['key'], 
+                    array(
+                        'label'    => $value['text'],
+                        'section'  => 'psn_theme_settings_projects',
+                        'settings' => $value['key'],
+                        'type'     => $value['type']
+                    )
+                ); 
+            }        
+        }
+        add_action('customize_register', 'psn_theme_settings_projects');
+
+        function psn_theme_settings_footer($wp_customize) {
+
+            $wp_customize->add_section( 'psn_theme_settings_footer' , array(
+                'title'      => __( 'PsnThemes - Rodapé', '' ),
+                'priority'   => 30,
+            ) );
+
+            
+            $optionsArray = array(
+                array(
+                    'key' => 'psn_themes_footer_number',
+                    'text' => __( 'Número', '' ),
+                    'type' => 'text'
+                ),
+                array(
+                    'key' => 'psn_themes_footer_email',
+                    'text' => __( 'E-mail', '' ),
+                    'type' => 'email'
+                ),
+                array(
+                    'key' => 'psn_themes_footer_copy',
+                    'text' => __( 'Copyright', '' ),
+                    'type' => 'text'
+                )
+            );
+
+            foreach ($optionsArray as $value) {
+                $wp_customize->add_setting($value['key']);
+                $wp_customize->add_control(
+                    $value['key'], 
+                    array(
+                        'label'    => $value['text'],
+                        'section'  => 'psn_theme_settings_footer',
+                        'settings' => $value['key'],
+                        'type'     => $value['type']
+                    )
+                ); 
+            }        
+        }
+        add_action('customize_register', 'psn_theme_settings_footer');
     }
 
     public function createLink($href,$title,$text,$target=''){

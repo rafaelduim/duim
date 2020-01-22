@@ -1,7 +1,8 @@
 <?php 
 get_header();
-    psn_newsletter_form();
-    $PsnRestrictedAreaForm = new PsnRestrictedAreaForm();
-    $PsnRestrictedAreaForm->register();
+    get_template_part( 'incs/partial/banners/banners', 'home' );
+    get_template_part( 'incs/partial/all/all', 'featured' );
+    get_template_part( 'incs/partial/services/services', 'featured' );
+    get_template_part( 'incs/partial/projects/projects', 'featured' );
 get_footer();
 ?>

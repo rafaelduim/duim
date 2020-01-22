@@ -1,17 +1,17 @@
 <?php 
-add_action('init', 'term');
+add_action('init', 'projects');
  
-function term() {
+function projects() {
     // Post Type 
     $postTypeInfo = array(
-        'name' => 'PLURAL',
-        'singular_name' => 'NOME',
-        'slug' => 'genero',
-        'term' => 'term',
-        'icon' => '',
+        'name' => 'Projetos',
+        'singular_name' => 'Projeto',
+        'slug' => 'cliente',
+        'term' => 'projects',
+        'icon' => 'dashicons-feedback',
         'archive' => true,
         'exclude_search' => false,
-        'supports' => array('title','editor'),
+        'supports' => array('title','editor','excerpt','thumbnail'),
         'public' => true,
     );
     
@@ -50,6 +50,28 @@ function term() {
     register_post_type( $postTypeInfo['term'] , $args );
 
     flush_rewrite_rules();
+
+    $label = array(
+        'name'                  => ('Categorias'),
+        'singular_name'         => ('Categoria'),
+        'add_new'               => ('Adicionar'),
+        'add_new_item'          => ('Adicionar'),
+        'edit_item'             => ('Editar'),
+        'new_item'              => ('Nova'),
+        'view_item'             => ('Ver'),
+        'search_items'          => ('Buscar'),
+    );
+
+    register_taxonomy('category_' . $postTypeInfo["term"], array($postTypeInfo["term"]),
+
+    array(
+        'labels'                => $label,
+        'public'                => true,
+        'query_var'             => true,
+        'hierarchical'          => true,
+        'show_in_rest'          => true,
+        'rewrite'               => array( 'slug' => 'categoria-projecto', 'with_front' => false ))
+    );
 }
 
 ?>

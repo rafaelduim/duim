@@ -5,23 +5,246 @@ Email: niravjoshi87@gmail.com
 File: scss
 */
 
-
 /*============================================================== 
  You can write your style here and overwrite our style
  ============================================================== */
- #toast-container > .toast-info {
-    background-repeat: no-repeat;
-    background-position: 10px center;
-  }
-  #toast-container > .toast-error {
-    background-repeat: no-repeat;
-    background-position: 10px center;
-  }
-  #toast-container > .toast-success {
-    background-repeat: no-repeat;
-    background-position: 10px center;
-  }
-  #toast-container > .toast-warning {
-    background-repeat: no-repeat;
-    background-position: 10px center;
-  }
+.active-menu-float {
+	.topbar {
+		min-height: 100%;
+	}
+}
+#toast-container > .toast-info {
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+#toast-container > .toast-error {
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+#toast-container > .toast-success {
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+#toast-container > .toast-warning {
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+
+/*******************
+Header 17
+*******************/
+.header17 {
+	.navbar-brand {
+		img {
+			max-width: 140px;
+		}
+	}
+	.h17-nav {
+		padding: 15px 0;
+		display: flex;
+		.call-info {
+			padding-left: 20px;
+			border-left: 1px solid $border;
+			vertical-align: middle;
+		}
+		.h17nav-bar {
+			margin-bottom: 0px;
+			li {
+				display: inline-block;
+				vertical-align: middle;
+				a.nav-link {
+					color: $muted;
+					padding: 10px 15px;
+					display: block;
+				}
+			}
+			&:hover .nav-link,
+			&.active .nav-link {
+				color: $danger;
+			}
+			&:last-child {
+				margin-left: 10px;
+			}
+		}
+	}
+	.h17-main-nav {
+		position: fixed;
+		z-index: 999;
+		overflow: auto;
+		top: 0px;
+		padding: 60px 0;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		display: none;
+		background: $light;
+		&.show {
+			display: flex;
+		}
+		.close-icons {
+			position: absolute;
+			right: 30px;
+			top: 30px;
+			color: $muted;
+			&:hover {
+				color: $themecolor;
+			}
+		}
+		ul {
+			margin: 0px;
+			padding: 0px;
+
+			li {
+				list-style: none;
+				a {
+					color: $muted;
+					&:hover {
+						color: $themecolor;
+					}
+				}
+			}
+		}
+		.nav-menu {
+			display: inline-block;
+			li {
+				a {
+					font-size: 24px;
+					padding: 10px 0 7px;
+					margin-bottom: 5px;
+					display: block;
+					border-bottom: 2px solid transparent;
+				}
+				&:hover a,
+				&.active a {
+					border-bottom: 2px solid $themecolor;
+					color: $themecolor;
+				}
+				&:last-child a,
+				&:last-child:hover a {
+					border-bottom: 2px solid transparent;
+				}
+			}
+		}
+		.info-nav {
+			margin-top: 60px;
+			li {
+				display: inline-block;
+				a {
+					padding: 0 10px;
+				}
+			}
+		}
+		.social-nav {
+			li {
+				display: inline-block;
+				a {
+					padding: 10px;
+					display: block;
+				}
+				&:last-child {
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 599px) {
+	.h-17navbar {
+		align-self: auto !important;
+	}
+}
+
+/*******************
+Slider 1
+*******************/
+.slider1 {
+	position: relative;
+	h2 {
+		display: inline-block;
+		color: $white;
+		font-weight: 800;
+		font-size: 36px;
+		padding: 20px;
+		text-transform: uppercase;
+		margin: 0;
+	}
+	p {
+		font-size: 18px;
+		a {
+			border-radius: 0;
+			box-shadow: none;
+			color: $bodytext;
+			padding-left: 20px;
+			padding-right: 60px;
+			i {
+				opacity: 1;
+				right: -2rem;
+				color: $success;
+			}
+			&:hover {
+				color: $dark;
+				span {
+					transform: translate3d(0, 0, 0);
+				}
+				i {
+					right: -2.7rem;
+					color: $success;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.slider1 {
+		.slide-image {
+			min-height: 300px;
+		}
+		h2 {
+			font-size: 20px;
+		}
+		p {
+			a {
+				font-size: 14px;
+			}
+		}
+	}
+}
+
+/*******************
+Feature 1
+*******************/
+.wrap-feature11-box {
+	margin-top: 60px;
+}
+
+.wrap-feature11-box .card-body {
+	padding: 40px;
+}
+
+.wrap-feature11-box .icon-space {
+	margin: -80px 0 20px;
+}
+
+.wrap-feature11-box .icon-space .icon-round {
+	font-size: 45px;
+	color: #ffffff;
+}
+/*******************
+Footer 6
+*******************/
+.footer6 {
+	.round-social {
+		a {
+			background: $border;
+			color: $muted;
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			&:hover {
+				color: $white;
+			}
+		}
+	}
+}

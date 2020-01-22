@@ -68,7 +68,7 @@ class PsnNewsletter
 
         if(class_exists('PsnHelper')){
             $PsnHelper = new PsnHelper();
-            $addLog = $PsnHelper->addLine($data,$this->tableNewsletter);
+            $addLog = $PsnHelper->addLine($data,$this->tableNewsletter); 
     
             if($addLog['stats'] == 1){
                 $configuration_email_newsletter = get_option('configuration_email_newsletter');

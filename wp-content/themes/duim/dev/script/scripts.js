@@ -63,6 +63,13 @@ var scripts = {
                 scrollTop: 0
             }, 700);
         });
+        // MENU
+        $('.tgl-cl').on('click', function() {
+            $('body .h17-main-nav').toggleClass("show");
+            $('body').toggleClass("active-menu-float");
+            
+        });
+        // $('.h17-main-nav').perfectScrollbar();
 
         // Recuperar Cidades
         $('#stateForm').change(function(){
@@ -211,6 +218,44 @@ var scripts = {
             });
 
         });
+        // LOAD
+        $('[data-load="ajax"]').each(function () {
+            var _o = $(this);
+            var _p = _o.data('parametros');
+            var _container = '#' + _o.attr('id');
+            var _data = eval('({' + _p + '})');
+            carregarAjaxConteudo(_data, _container);
+        });
+        $(document).on('click',"[data-acao-ajax='true']",function(e){
+            e.preventDefault();
+            var _o = $(this);
+            if(!_o.parent('li').hasClass('active')) {
+                _o.parents('.nav-pills').find('.active').removeClass('active');
+                _o.parent('li').addClass('active')
+                var _p = _o.data('parametros');
+                var _container = _o.data('container');
+                var _data = eval('({' + _p + '})');
+                $(_container).html('<div class="container-load pt-100 pb-100"><div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div></div>');
+                carregarAjaxConteudo(_data, _container);
+            }
+        })
+    
+        function carregarAjaxConteudo(_data, local) {
+            $.ajax(
+            {
+                url: ajaxForm.ajax_url,
+                type: 'POST',
+                data: _data,
+                dataType: "HTML",
+                success: function (results, status) {
+                    if (results == 0) {
+                        $(local).html('<div class="sem-conteudo">Não foram encontrados resultados</div>');
+                    } else {
+                        $(local).html(results);
+                    }
+                }
+            });
+        }
     }
 }
 

@@ -12,10 +12,12 @@ if ( function_exists( 'register_nav_menu' ) ) {
 // THUMBNAIL
 if (function_exists('add_theme_support')){
     add_theme_support('post-thumbnails');
-    add_image_size('690x305', 690, 305, array( 'center', 'top' ));
-    add_image_size('208x305', 208, 305, false);
+    add_image_size('350x231', 350, 231, array( 'center', 'top' ));
+    add_image_size('238x276', 238, 276, false);
     add_image_size('285x505', 285, 505, true);
 }
+// CONSTANTS
+require_once('incs/options/constants.php');
 // CLASS
 require_once('incs/options/class.php');
 // ASSETS
@@ -47,6 +49,7 @@ add_action( 'admin_menu', 'remove_menus' );
 
 
 // AJAX
-
+require_once('incs/partial/services/services-ajax.php');
+require_once('incs/partial/projects/projects-ajax.php');
 
 ?>

@@ -51,7 +51,7 @@ class PsnHelper
 
     }
     
-    public function updateLine($data_ins,$table,$where)
+    public function updateLine($data_ins,$table,$where) 
     {
         $update_data = $this->wpdb->update($table, $data_ins,$where);
 

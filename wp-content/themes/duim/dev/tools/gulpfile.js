@@ -45,7 +45,7 @@ function buildBundleCss() {
 }
 
 const compileSass = gulp.series(cleanCss, buildSass);
-const compileBundleCss = gulp.series(buildSass, buildBundleCss);
+const compileBundleCss = gulp.series(cleanCss, buildSass, buildBundleCss);
 
 exports.cleanCss = cleanCss;
 exports.buildSass = buildSass;
