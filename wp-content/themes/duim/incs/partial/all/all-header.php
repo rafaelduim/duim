@@ -16,6 +16,9 @@ $psn_themes_footer_number = get_theme_mod( 'psn_themes_footer_number' );
 $psn_themes_footer_email = get_theme_mod( 'psn_themes_footer_email' );
 
 
+$linkArchiveProjects = get_post_type_archive_link(PROJECTS);
+$linkArchiveServices = get_post_type_archive_link(SERVICES);
+
 ?>
 <!-- ============================================================== -->
 <!-- Header 17  -->
@@ -43,14 +46,14 @@ $psn_themes_footer_email = get_theme_mod( 'psn_themes_footer_email' );
             <ul class="nav-menu">
                 <li><a href="<?php echo $PsnThemes->getUrlSite(); ?>"><img src="<?php echo $psn_themes_logo; ?>" alt="<?php echo $PsnThemes->getTemplateName(); ?>" /></a></li>
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Quem Somos</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="<?php echo $PsnThemes->getUrlSite(); ?>/quem-somos">Quem Somos</a></li>
+                <li><a href="<?php echo $linkArchiveProjects; ?>">Projetos</a></li>
+                <li><a href="<?php echo $linkArchiveServices; ?>">Serviços</a></li>
+                <li><a href="<?php echo $PsnThemes->getUrlSite(); ?>/contato">Contato</a></li>
             </ul>
             <ul class="info-nav">
-                <li class="half-width"><a href="#"><i class="fa fa-envelope text-danger"></i> <?php echo $psn_themes_footer_email; ?></a></li>
-                <li class="half-width"><a href="#"><i class="fa fa-phone text-danger"></i> <?php echo $psn_themes_footer_number; ?></a></li>
+                <li class="half-width"><a href="mailto:<?php echo $psn_themes_footer_email; ?>"><i class="fa fa-envelope text-danger"></i> <?php echo $psn_themes_footer_email; ?></a></li>
+                <li class="half-width"><a href="tel:<?php echo $psn_themes_footer_number; ?>"><i class="fa fa-phone text-danger"></i> <?php echo $psn_themes_footer_number; ?></a></li>
             </ul>
             <ul class="social-nav">
                 <li><a href="<?php echo $psn_themes_social_facebook; ?>" class=""><i class="fa fa-facebook"></i></a></li>

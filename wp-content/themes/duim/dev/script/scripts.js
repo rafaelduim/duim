@@ -36,17 +36,17 @@ var scripts = {
             var bodyScroll = wind.scrollTop(),
                 navbar = $(".topbar");
             if (bodyScroll > 100) {
-                navbar.addClass("fixed-header animated slideInDown")
+                navbar.addClass("fixed-header bg-light animated slideInDown")
             } else {
-                navbar.removeClass("fixed-header animated slideInDown")
+                navbar.removeClass("fixed-header bg-light animated slideInDown")
             }
         });
         $(window).scroll(function () {
             if ($(window).scrollTop() >= 100) {
-                $('.topbar').addClass('fixed-header animated slideInDown');
+                $('.topbar').addClass('fixed-header bg-light animated slideInDown');
                 $('.bt-top').addClass('visible');
             } else {
-                $('.topbar').removeClass('fixed-header animated slideInDown');
+                $('.topbar').removeClass('fixed-header bg-light animated slideInDown');
                 $('.bt-top').removeClass('visible');
             }
         });

@@ -248,3 +248,41 @@ Footer 6
 		}
 	}
 }
+
+/*******************
+team 1
+*******************/
+.team1 {
+    .pro-pic {
+        min-height: 100px;
+
+        .card-img-overlay {
+            background: rgba(26, 139, 243, 0.87);
+            display: none;
+
+            ul {
+                position: relative;
+                top: 50%;
+                text-align: center;
+
+                li a {
+                    color: $white;
+                    padding: 0 10px;
+                    transition: 0.1s ease-in;
+                    display: block;
+
+                    &:hover {
+
+                        transform: translate3d(0px, -5px, 0px);
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            .card-img-overlay {
+                display: block;
+            }
+        }
+    }
+}

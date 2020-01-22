@@ -1,7 +1,6 @@
 <?php 
 $PsnThemes = new PsnThemes();
 ?>
-<div class="mini-spacer"></div>
 <div class="bg-light">
     <?php 
     $args = array(

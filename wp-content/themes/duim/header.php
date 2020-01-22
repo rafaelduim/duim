@@ -24,7 +24,7 @@
     get_template_part( 'incs/partial/all/all', 'preloader' );
     ?>
     <div id="main-wrapper">
-        <div class="topbar bg-light">
+        <div class="topbar">
             <?php 
             get_template_part( 'incs/partial/all/all', 'header' );
             ?>
