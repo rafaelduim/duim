@@ -1,18 +1,18 @@
 <?php 
-add_action('init', 'services');
+add_action('init', 'testimonials');
  
-function services() {
+function testimonials() {
     // Post Type 
     $postTypeInfo = array(
-        'name' => 'Serviços',
-        'singular_name' => 'Serviço',
-        'slug' => 'servicos',
-        'term' => 'services',
-        'icon' => 'dashicons-cart',
-        'archive' => true,
-        'exclude_search' => false,
-        'supports' => array('title','editor','excerpt','thumbnail'),
-        'public' => true,
+        'name' => 'Depoimentos',
+        'singular_name' => 'Depoimento',
+        'slug' => 'depoimentos',
+        'term' => 'testimonials',
+        'icon' => 'dashicons-format-quote',
+        'archive' => false,
+        'exclude_search' => true,
+        'supports' => array('title','editor'),
+        'public' => false,
     );
     
     $labels = array(
@@ -50,6 +50,28 @@ function services() {
     register_post_type( $postTypeInfo['term'] , $args );
 
     flush_rewrite_rules();
+
+    $label = array(
+        'name'                  => ('Categorias'),
+        'singular_name'         => ('Categoria'),
+        'add_new'               => ('Adicionar'),
+        'add_new_item'          => ('Adicionar'),
+        'edit_item'             => ('Editar'),
+        'new_item'              => ('Nova'),
+        'view_item'             => ('Ver'),
+        'search_items'          => ('Buscar'),
+    );
+
+    register_taxonomy('category_' . $postTypeInfo["term"], array($postTypeInfo["term"]),
+
+    array(
+        'labels'                => $label,
+        'public'                => true,
+        'query_var'             => true,
+        'hierarchical'          => true,
+        'show_in_rest'          => true,
+        'rewrite'               => array( 'slug' => 'categoria-projecto', 'with_front' => false ))
+    );
 }
 
 ?>

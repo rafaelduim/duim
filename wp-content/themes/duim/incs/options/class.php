@@ -164,7 +164,19 @@ class PsnThemes {
                         'type'     => $value['type']
                     )
                 ); 
-            }        
+            }   
+            $wp_customize->add_setting('psn_themes_services_image');
+            $wp_customize->add_control( 
+                new WP_Customize_Image_Control( 
+                    $wp_customize, 
+                    'psn_themes_services_image',
+                    array(
+                        'label' => 'Imagem Banner',
+                        'section' => 'psn_theme_settings_services',
+                        'settings' => 'psn_themes_services_image',
+                    ) 
+                )
+            );   
         }
         add_action('customize_register', 'psn_theme_settings_services');
 
@@ -200,7 +212,20 @@ class PsnThemes {
                         'type'     => $value['type']
                     )
                 ); 
-            }        
+            }
+            
+            $wp_customize->add_setting('psn_themes_projects_image');
+            $wp_customize->add_control( 
+                new WP_Customize_Image_Control( 
+                    $wp_customize, 
+                    'psn_themes_projects_image',
+                    array(
+                        'label' => 'Imagem Banner',
+                        'section' => 'psn_theme_settings_projects',
+                        'settings' => 'psn_themes_projects_image',
+                    ) 
+                )
+            );
         }
         add_action('customize_register', 'psn_theme_settings_projects');
 

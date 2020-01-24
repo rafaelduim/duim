@@ -6,7 +6,7 @@ function projects() {
     $postTypeInfo = array(
         'name' => 'Projetos',
         'singular_name' => 'Projeto',
-        'slug' => 'cliente',
+        'slug' => 'clientes',
         'term' => 'projects',
         'icon' => 'dashicons-feedback',
         'archive' => true,

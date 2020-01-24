@@ -249,7 +249,8 @@ var scripts = {
                 dataType: "HTML",
                 success: function (results, status) {
                     if (results == 0) {
-                        $(local).html('<div class="sem-conteudo">Não foram encontrados resultados</div>');
+                        // $(local).html('<div class="sem-conteudo">Não foram encontrados resultados</div>');
+                        $(local).html('');
                     } else {
                         $(local).html(results);
                     }
