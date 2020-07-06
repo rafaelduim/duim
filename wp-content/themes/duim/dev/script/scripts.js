@@ -218,6 +218,74 @@ var scripts = {
             });
 
         });
+        // Contato
+        $('[data-form="contact"]').submit(function (event) {
+            event.preventDefault();
+            var $button = $(this).find('button[type="submit"]');
+            var $form = $(this)
+            var $dataFormContact = $form.serialize();
+    
+            var form_btn = $($form).find('button[type="submit"]');
+            var form_result_div = '#form-result';
+            $(form_result_div).remove();
+            form_btn.before('<div id="form-result" class="alert" role="alert" style="display: none;"></div>');
+            var form_btn_old_msg = form_btn.html();
+            form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
+    
+            $.ajax({
+                url: ajaxForm.ajax_url,
+                type: 'POST',
+                dataType: 'JSON',
+                data: $dataFormContact,
+                beforeSend: function () {
+                    toastr["info"]("Estamos enviando a seu e-mail... Aguarde!");
+                },
+                success: function (data, status) {
+                    // resposta
+                    var $_resposta = data;
+                    // verifica se existe
+                    if ($_resposta) {
+                        var _cod, _message;
+                        // quebrando os resultados
+                        // obtendo o cod
+                        _cod = $_resposta.cod;
+                        _message = $_resposta.message;
+                        
+                        if (_cod == 1) {                              
+                            form_btn.prop('disabled', false).html(form_btn_old_msg);
+                            $(form_result_div).html(_message).fadeIn('slow');
+                            $(form_result_div).removeClass('alert-danger');
+                            $(form_result_div).addClass('alert-success');
+                            toastr["success"]("Contato enviado com sucesso!");
+                            setTimeout(function(){ 
+                                $(form_result_div).fadeOut('slow');
+                            }, 6000);
+                        }else{
+                            form_btn.prop('disabled', false).html(form_btn_old_msg);
+                            $(form_result_div).html(_message).fadeIn('slow');
+                            $(form_result_div).removeClass('alert-success');
+                            $(form_result_div).addClass('alert-danger');
+                            setTimeout(function(){ 
+                                $(form_result_div).fadeOut('slow');
+                            }, 6000);
+                            toastr["error"](_message);
+                        }
+                        $('[data-form="contact"]')[0].reset();
+                        
+    
+                    } else {
+                        alert('Não foi possível realizar enviar o seu contato, favor enviar um e-mail para contato@gestaoremota.com.br');
+                    }
+    
+                },
+                error: function (error) {
+                    alert('Error!');
+                    $('[data-form="contact"]')[0].reset();
+                    toastr["error"](_message);
+                }
+            });
+    
+        });
         // LOAD
         $('[data-load="ajax"]').each(function () {
             var _o = $(this);
