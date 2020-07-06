@@ -414,3 +414,9 @@ team 1
 		@extend .m-t-40;
 	}
 }
+
+#services-gallery {
+	.owl-stage-outer {
+		max-height: 500px;
+	}
+}
