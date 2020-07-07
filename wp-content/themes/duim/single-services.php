@@ -23,7 +23,7 @@ get_header();
             <!-- ============================================================== -->
             <!-- Portfolio  -->
             <!-- ============================================================== -->
-            <div class="spacer">
+            <!-- <div class="spacer">
                 <div class="container">
                     <h1><?php echo $title; ?></h1>
                     <a href="<?php echo $services_url;?>" target="_blank"><u><?php echo $services_url?></u></a>
@@ -44,7 +44,7 @@ get_header();
                     
                     
                 </div>
-            </div>
+            </div> -->
             
             <div class="container-fluid" id="testimonials-featured" data-load="ajax" data-parametros='action:"testimonialsService" , id: <?php echo $idService; ?>'>
                 <div class="container">
