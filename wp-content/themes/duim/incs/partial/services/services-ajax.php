@@ -43,7 +43,7 @@ function servicesFeatured(){
             <?php 
             }
             ?>
-            <div class="row m-t-40">
+            <div class="row m-t-40 justify-content-center">
                 <!-- Column -->
                 <?php 
                 $args = array(
@@ -64,7 +64,7 @@ function servicesFeatured(){
             <?php 
             if($home){
             ?>
-                <div class="row justify-content-center">
+                <div class="row">
                     <div class="col-md-12 m-t-40 text-center">
                         <a class="btn btn-success-gradiant btn-md btn-arrow" href="<?php echo $linkArchive; ?>"><span>Ver mais <i class="ti-arrow-right"></i></span></a>
                     </div>
