@@ -36,7 +36,7 @@ Header 17
 .header17 {
 	.navbar-brand {
 		img {
-			max-width: 140px;
+			max-width: 200px;
 		}
 	}
 	.h17-nav {
@@ -237,8 +237,8 @@ Footer 6
 .footer6 {
 	.round-social {
 		a {
-			background: $border;
-			color: $muted;
+			background: $color-extra;
+			color: $white;
 			width: 40px;
 			height: 40px;
 			line-height: 40px;

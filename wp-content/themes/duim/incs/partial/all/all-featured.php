@@ -22,7 +22,7 @@ $psn_themes_about_excerpt = get_theme_mod('psn_themes_about_excerpt');
                         <div class="card card-shadow" data-aos="fade-right" data-aos-duration="1200">
                             <div class="card-body">
                                 <div class="icon-space">
-                                    <div class="icon-round bg-success-gradiant"><i class="<?php echo $featured['icon']; ?>"></i></div>
+                                    <div class="icon-round bg-primary-gradiant"><i class="<?php echo $featured['icon']; ?>"></i></div>
                                 </div>
                                 <h5 class="font-medium"><?php echo $featured['title']; ?></h5>
                                 <p class="m-t-20"><?php echo $featured['text']; ?></p>

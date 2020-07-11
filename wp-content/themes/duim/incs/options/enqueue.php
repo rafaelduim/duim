@@ -1,4 +1,5 @@
-<?php
+<?php 
+
 //Template Start
 function startup_psn(){
     add_action('wp_enqueue_scripts', 'scripts_pns', 2);
@@ -30,4 +31,5 @@ function style_psn(){
     wp_enqueue_style( 'style-bundle', $PsnThemes->getUrlTemplate() . '/dist/assets/css/bundle.styles.css', array(),'1.0.0');
 
 }
+
 ?>

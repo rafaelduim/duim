@@ -581,6 +581,9 @@ Background Colors
 .bg-twitter {
     background-color: $twitter;
 }
+.bg-primary-gradiant{
+    @include linear-gradient (to right, $primary 0%, $color-extra 100%);
+}
 .bg-success-gradiant{
     @include linear-gradient (to right, $success 0%, $success-dark 100%);
 }
@@ -1132,6 +1135,20 @@ Buttons
     
     &:hover{
         @include linear-gradient (to right, $success-dark 0%, $success 100%);
+        
+    }
+    &.active, &:active, &:focus{
+        box-shadow: 0px;
+        opacity: 1;
+    }
+}
+
+.btn-primary-gradiant{
+    @include linear-gradient (to right, $primary 0%, $color-extra 100%);
+    border:0px;
+    
+    &:hover{
+        @include linear-gradient (to right, $color-extra 0%, $primary 100%);
         
     }
     &.active, &:active, &:focus{

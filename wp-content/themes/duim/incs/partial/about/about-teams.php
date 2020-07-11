@@ -14,7 +14,7 @@
                 <?php 
                 foreach ($about_teams as $team) {
                 ?>
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <div class="card card-shadow">
                             <!-- Row -->
                             <div class="row no-gutters ">

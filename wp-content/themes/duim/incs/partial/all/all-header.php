@@ -49,6 +49,7 @@ $linkArchiveServices = get_post_type_archive_link(SERVICES);
                 <li><a href="<?php echo $PsnThemes->getUrlSite(); ?>/quem-somos">Quem Somos</a></li>
                 <li><a href="<?php echo $linkArchiveProjects; ?>">Projetos</a></li>
                 <li><a href="<?php echo $linkArchiveServices; ?>">Serviços</a></li>
+                <li><a href="<?php echo $PsnThemes->getUrlSite(); ?>/noticias">Noticias</a></li>
                 <li><a href="<?php echo $PsnThemes->getUrlSite(); ?>/contato">Contato</a></li>
             </ul>
             <ul class="info-nav">

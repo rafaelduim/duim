@@ -28,12 +28,12 @@ get_header();
                     <h1><?php echo $title; ?></h1>
                     <a href="<?php echo $services_url;?>" target="_blank"><u><?php echo $services_url?></u></a>
                     
-                    <div class="clearfix" id="services-gallery" data-load="ajax" data-parametros='action:"servicesGallery" , id: <?php echo $idService?>'>
+                    <!-- <div class="clearfix" id="services-gallery" data-load="ajax" data-parametros='action:"servicesGallery" , id: <?php echo $idService?>'>
                         <?php 
-                        get_template_part( 'incs/partial/all/all', 'loading' );
+                        //get_template_part( 'incs/partial/all/all', 'loading' );
                         ?>
                     </div>
-                    
+                     -->
 
 
                     <article class="m-t-30 text-services">
@@ -60,7 +60,7 @@ get_header();
                         <div class="col-md-7 text-center">
                             <h2 class="title"><?php echo $services_calltoaction_title; ?></h2>
                             <h6 class="subtitle"><?php echo $services_calltoaction_text; ?></h6>
-                            <a class="btn btn-info-gradiant btn-md btn-arrow m-t-20" href="<?php echo $PsnThemes->getUrlSite(); ?>"><span>Entre em contato <i class="ti-arrow-right"></i></span></a>
+                            <a class="btn btn-primary-gradiant btn-md btn-arrow m-t-20" href="<?php echo $PsnThemes->getUrlSite(); ?>"><span>Entre em contato <i class="ti-arrow-right"></i></span></a>
                         </div>
                     </div>
                 </div>
