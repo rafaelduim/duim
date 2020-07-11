@@ -4,11 +4,7 @@ $excerpt = get_the_excerpt();
 $image350x231 = get_the_post_thumbnail_url( $post->ID , '350x231' );
 $link = get_the_permalink();
 ?>
-<<<<<<< HEAD
 <a href="<?php echo $link; ?>" class="col-sm-6 col-md-4 col-lg-3 wrap-feature2-box" title="<?php echo $title; ?>">
-=======
-<a href="<?php echo $link; ?>" class="col-md-3 wrap-feature2-box" title="<?php echo $title; ?>">
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
     <div class="card card-shadow" data-aos="flip-left" data-aos-duration="1200">
         <img class="card-img-top" src="<?php echo $image350x231; ?>" alt="<?php echo $title; ?>" />
         <div class="card-body text-center">
