@@ -82,7 +82,11 @@ this["wp"] = this["wp"] || {}; this["wp"]["wordcount"] =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
+<<<<<<< HEAD
 /******/ 	return __webpack_require__(__webpack_require__.s = 432);
+=======
+/******/ 	return __webpack_require__(__webpack_require__.s = 352);
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -94,14 +98,23 @@ this["wp"] = this["wp"] || {}; this["wp"]["wordcount"] =
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 432:
+=======
+/***/ 352:
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
+<<<<<<< HEAD
 // EXTERNAL MODULE: external {"this":"lodash"}
 var external_this_lodash_ = __webpack_require__(2);
+=======
+// EXTERNAL MODULE: external "lodash"
+var external_lodash_ = __webpack_require__(2);
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
 // CONCATENATED MODULE: ./node_modules/@wordpress/wordcount/build-module/defaultSettings.js
 var defaultSettings = {
@@ -345,7 +358,11 @@ var defaultSettings = {
  */
 
 function loadSettings(type, userSettings) {
+<<<<<<< HEAD
   var settings = Object(external_this_lodash_["extend"])(defaultSettings, userSettings);
+=======
+  var settings = Object(external_lodash_["extend"])(defaultSettings, userSettings);
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
   settings.shortcodes = settings.l10n.shortcodes || {};
 
   if (settings.shortcodes && settings.shortcodes.length) {
@@ -372,7 +389,11 @@ function loadSettings(type, userSettings) {
 
 
 function matchWords(text, regex, settings) {
+<<<<<<< HEAD
   text = Object(external_this_lodash_["flow"])(stripTags.bind(this, settings), stripHTMLComments.bind(this, settings), stripShortcodes.bind(this, settings), stripSpaces.bind(this, settings), stripHTMLEntities.bind(this, settings), stripConnectors.bind(this, settings), stripRemovables.bind(this, settings))(text);
+=======
+  text = Object(external_lodash_["flow"])(stripTags.bind(this, settings), stripHTMLComments.bind(this, settings), stripShortcodes.bind(this, settings), stripSpaces.bind(this, settings), stripHTMLEntities.bind(this, settings), stripConnectors.bind(this, settings), stripRemovables.bind(this, settings))(text);
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
   text = text + '\n';
   return text.match(regex);
 }
@@ -388,7 +409,11 @@ function matchWords(text, regex, settings) {
 
 
 function matchCharacters(text, regex, settings) {
+<<<<<<< HEAD
   text = Object(external_this_lodash_["flow"])(stripTags.bind(this, settings), stripHTMLComments.bind(this, settings), stripShortcodes.bind(this, settings), stripSpaces.bind(this, settings), transposeAstralsToCountableChar.bind(this, settings), transposeHTMLEntitiesToCountableChars.bind(this, settings))(text);
+=======
+  text = Object(external_lodash_["flow"])(stripTags.bind(this, settings), stripHTMLComments.bind(this, settings), stripShortcodes.bind(this, settings), stripSpaces.bind(this, settings), transposeAstralsToCountableChar.bind(this, settings), transposeHTMLEntitiesToCountableChars.bind(this, settings))(text);
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
   text = text + '\n';
   return text.match(regex);
 }

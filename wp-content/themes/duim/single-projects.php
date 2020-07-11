@@ -19,12 +19,11 @@ get_header();
         $projects_calltoaction_text = get_field('projects_calltoaction_text');
         ?>
         <div class="container-fluid">
-            <!-- ============================================================== -->
-            <!-- Portfolio  -->
-            <!-- ============================================================== -->
             <div class="spacer">
                 <div class="container">
+
                     <h1><?php echo $title; ?></h1>
+
                     <a href="<?php echo $projects_url;?>" target="_blank"><u><?php echo $projects_url?></u></a>
                     
                     <div class="clearfix" id="projects-gallery" data-load="ajax" data-parametros='action:"projectsGallery" , id: <?php echo $idProjects?>'>
@@ -32,15 +31,12 @@ get_header();
                         get_template_part( 'incs/partial/all/all', 'loading' );
                         ?>
                     </div>
-                    
-
 
                     <article class="m-t-30 text-projects">
                         <?php the_content(); ?>
                     </article>
 
-                    <div class="mini-spacer"></div>
-                    
+                    <div class="mini-spacer"></div> 
                     
                 </div>
             </div>
@@ -54,8 +50,7 @@ get_header();
                         </div>
                     </div>
                 </div>
-            </div>      
-            
+            </div>
             <div class="clearfix bg-light" id="projects-featured" data-load="ajax" data-parametros='action:"projectsFeatured" , count: 3 , home: true , id : <?php echo $idProjects; ?>'>
                 <?php 
                 get_template_part( 'incs/partial/all/all', 'loading' );

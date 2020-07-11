@@ -82,7 +82,11 @@ this["wp"] = this["wp"] || {}; this["wp"]["plugins"] =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
+<<<<<<< HEAD
 /******/ 	return __webpack_require__(__webpack_require__.s = 444);
+=======
+/******/ 	return __webpack_require__(__webpack_require__.s = 363);
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -94,6 +98,7 @@ this["wp"] = this["wp"] || {}; this["wp"]["plugins"] =
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 12:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -115,11 +120,35 @@ function _extends() {
   };
 
   return _extends.apply(this, arguments);
+=======
+/***/ 10:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _defineProperty; });
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 }
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 13:
+=======
+/***/ 11:
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -142,7 +171,11 @@ function _createClass(Constructor, protoProps, staticProps) {
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 14:
+=======
+/***/ 12:
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -155,13 +188,22 @@ function _classCallCheck(instance, Constructor) {
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 15:
+=======
+/***/ 13:
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _possibleConstructorReturn; });
+<<<<<<< HEAD
 /* harmony import */ var _helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(34);
 /* harmony import */ var _assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
+=======
+/* harmony import */ var _helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(31);
+/* harmony import */ var _assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
 
 function _possibleConstructorReturn(self, call) {
@@ -174,7 +216,11 @@ function _possibleConstructorReturn(self, call) {
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 16:
+=======
+/***/ 14:
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -188,7 +234,11 @@ function _getPrototypeOf(o) {
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 17:
+=======
+/***/ 15:
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -222,6 +272,34 @@ function _inherits(subClass, superClass) {
 
 /***/ }),
 
+<<<<<<< HEAD
+=======
+/***/ 18:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _extends; });
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+/***/ }),
+
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ 2:
 /***/ (function(module, exports) {
 
@@ -229,18 +307,27 @@ function _inherits(subClass, superClass) {
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 32:
+=======
+/***/ 27:
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, exports) {
 
 (function() { module.exports = this["wp"]["hooks"]; }());
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 34:
+=======
+/***/ 31:
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _typeof; });
+<<<<<<< HEAD
 function _typeof(obj) {
   "@babel/helpers - typeof";
 
@@ -251,6 +338,18 @@ function _typeof(obj) {
   } else {
     _typeof = function _typeof(obj) {
       return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+=======
+function _typeof2(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
+
+function _typeof(obj) {
+  if (typeof Symbol === "function" && _typeof2(Symbol.iterator) === "symbol") {
+    _typeof = function _typeof(obj) {
+      return _typeof2(obj);
+    };
+  } else {
+    _typeof = function _typeof(obj) {
+      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : _typeof2(obj);
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
     };
   }
 
@@ -259,13 +358,18 @@ function _typeof(obj) {
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 444:
+=======
+/***/ 363:
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js
+<<<<<<< HEAD
 var classCallCheck = __webpack_require__(14);
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/createClass.js
@@ -282,10 +386,29 @@ var assertThisInitialized = __webpack_require__(7);
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/inherits.js + 1 modules
 var inherits = __webpack_require__(17);
+=======
+var classCallCheck = __webpack_require__(12);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/createClass.js
+var createClass = __webpack_require__(11);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js
+var possibleConstructorReturn = __webpack_require__(13);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js
+var getPrototypeOf = __webpack_require__(14);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js
+var assertThisInitialized = __webpack_require__(5);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/inherits.js + 1 modules
+var inherits = __webpack_require__(15);
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
 // EXTERNAL MODULE: external {"this":["wp","element"]}
 var external_this_wp_element_ = __webpack_require__(0);
 
+<<<<<<< HEAD
 // EXTERNAL MODULE: external {"this":"lodash"}
 var external_this_lodash_ = __webpack_require__(2);
 
@@ -294,6 +417,16 @@ var external_this_wp_hooks_ = __webpack_require__(32);
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
 var esm_extends = __webpack_require__(12);
+=======
+// EXTERNAL MODULE: external "lodash"
+var external_lodash_ = __webpack_require__(2);
+
+// EXTERNAL MODULE: external {"this":["wp","hooks"]}
+var external_this_wp_hooks_ = __webpack_require__(27);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
+var esm_extends = __webpack_require__(18);
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
 // EXTERNAL MODULE: external {"this":["wp","compose"]}
 var external_this_wp_compose_ = __webpack_require__(8);
@@ -324,7 +457,11 @@ var _createContext = Object(external_this_wp_element_["createContext"])({
  *                                     expected to return object of props to
  *                                     merge with the component's own props.
  *
+<<<<<<< HEAD
  * @return {WPComponent} Enhanced component with injected context as props.
+=======
+ * @return {Component} Enhanced component with injected context as props.
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  */
 
 var plugin_context_withPluginContext = function withPluginContext(mapContextToProps) {
@@ -337,20 +474,31 @@ var plugin_context_withPluginContext = function withPluginContext(mapContextToPr
   }, 'withPluginContext');
 };
 
+<<<<<<< HEAD
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/defineProperty.js
 var defineProperty = __webpack_require__(5);
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/typeof.js
 var esm_typeof = __webpack_require__(34);
+=======
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/objectSpread.js
+var objectSpread = __webpack_require__(7);
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/typeof.js
+var esm_typeof = __webpack_require__(31);
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
 // CONCATENATED MODULE: ./node_modules/@wordpress/plugins/build-module/api/index.js
 
 
 
+<<<<<<< HEAD
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(defineProperty["a" /* default */])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
+=======
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /* eslint no-console: [ 'error', { allow: [ 'error' ] } ] */
 
 /**
@@ -363,6 +511,7 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 
 /**
+<<<<<<< HEAD
  * Defined behavior of a plugin type.
  *
  * @typedef {Object} WPPlugin
@@ -379,6 +528,8 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
  */
 
 /**
+=======
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  * Plugin definitions keyed by plugin name.
  *
  * @type {Object.<string,WPPlugin>}
@@ -388,9 +539,17 @@ var plugins = {};
 /**
  * Registers a plugin to the editor.
  *
+<<<<<<< HEAD
  * @param {string}   name     A string identifying the plugin.Must be
  *                            unique across all registered plugins.
  * @param {WPPlugin} settings The settings for this plugin.
+=======
+ * @param {string}                    name            A string identifying the plugin. Must be unique across all registered plugins.
+ * @param {Object}                    settings        The settings for this plugin.
+ * @param {string|WPElement|Function} settings.icon   An icon to be shown in the UI. It can be a slug of the Dashicon,
+ * or an element (or function returning an element) if you choose to render your own SVG.
+ * @param {Function}                  settings.render A component containing the UI elements to be rendered.
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  *
  * @example <caption>ES5</caption>
  * ```js
@@ -400,7 +559,10 @@ var plugins = {};
  * var PluginSidebar = wp.editPost.PluginSidebar;
  * var PluginSidebarMoreMenuItem = wp.editPost.PluginSidebarMoreMenuItem;
  * var registerPlugin = wp.plugins.registerPlugin;
+<<<<<<< HEAD
  * var moreIcon = wp.element.createElement( 'svg' ); //... svg element.
+=======
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  *
  * function Component() {
  * 	return el(
@@ -424,7 +586,11 @@ var plugins = {};
  * 	);
  * }
  * registerPlugin( 'plugin-name', {
+<<<<<<< HEAD
  * 	icon: moreIcon,
+=======
+ * 	icon: 'smiley',
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  * 	render: Component,
  * } );
  * ```
@@ -432,9 +598,14 @@ var plugins = {};
  * @example <caption>ESNext</caption>
  * ```js
  * // Using ESNext syntax
+<<<<<<< HEAD
  * import { PluginSidebar, PluginSidebarMoreMenuItem } from '@wordpress/edit-post';
  * import { registerPlugin } from '@wordpress/plugins';
  * import { more } from '@wordpress/icons';
+=======
+ * const { PluginSidebar, PluginSidebarMoreMenuItem } = wp.editPost;
+ * const { registerPlugin } = wp.plugins;
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  *
  * const Component = () => (
  * 	<>
@@ -453,12 +624,20 @@ var plugins = {};
  * );
  *
  * registerPlugin( 'plugin-name', {
+<<<<<<< HEAD
  * 	icon: more,
+=======
+ * 	icon: 'smiley',
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  * 	render: Component,
  * } );
  * ```
  *
+<<<<<<< HEAD
  * @return {WPPlugin} The final plugin settings object.
+=======
+ * @return {Object} The final plugin settings object.
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  */
 
 function registerPlugin(name, settings) {
@@ -483,12 +662,20 @@ function registerPlugin(name, settings) {
 
   settings = Object(external_this_wp_hooks_["applyFilters"])('plugins.registerPlugin', settings, name);
 
+<<<<<<< HEAD
   if (!Object(external_this_lodash_["isFunction"])(settings.render)) {
+=======
+  if (!Object(external_lodash_["isFunction"])(settings.render)) {
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
     console.error('The "render" property must be specified and must be a valid function.');
     return null;
   }
 
+<<<<<<< HEAD
   plugins[name] = _objectSpread({
+=======
+  plugins[name] = Object(objectSpread["a" /* default */])({
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
     name: name,
     icon: 'admin-plugins'
   }, settings);
@@ -536,7 +723,11 @@ function unregisterPlugin(name) {
  *
  * @param {string} name Plugin name.
  *
+<<<<<<< HEAD
  * @return {?WPPlugin} Plugin setting.
+=======
+ * @return {?Object} Plugin setting.
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  */
 
 function getPlugin(name) {
@@ -545,7 +736,11 @@ function getPlugin(name) {
 /**
  * Returns all registered plugins.
  *
+<<<<<<< HEAD
  * @return {WPPlugin[]} Plugin settings.
+=======
+ * @return {Array} Plugin settings.
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  */
 
 function getPlugins() {
@@ -609,7 +804,11 @@ function getPlugins() {
  * );
  * ```
  *
+<<<<<<< HEAD
  * @return {WPComponent} The component to be rendered.
+=======
+ * @return {WPElement} Plugin area.
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  */
 
 var plugin_area_PluginArea =
@@ -632,7 +831,11 @@ function (_Component) {
     key: "getCurrentPluginsState",
     value: function getCurrentPluginsState() {
       return {
+<<<<<<< HEAD
         plugins: Object(external_this_lodash_["map"])(getPlugins(), function (_ref) {
+=======
+        plugins: Object(external_lodash_["map"])(getPlugins(), function (_ref) {
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
           var icon = _ref.icon,
               name = _ref.name,
               render = _ref.render;
@@ -670,7 +873,11 @@ function (_Component) {
         style: {
           display: 'none'
         }
+<<<<<<< HEAD
       }, Object(external_this_lodash_["map"])(this.state.plugins, function (_ref2) {
+=======
+      }, Object(external_lodash_["map"])(this.state.plugins, function (_ref2) {
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
         var context = _ref2.context,
             Plugin = _ref2.Plugin;
         return Object(external_this_wp_element_["createElement"])(Provider, {
@@ -707,6 +914,7 @@ function (_Component) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _defineProperty; });
 function _defineProperty(obj, key, value) {
   if (key in obj) {
@@ -721,6 +929,15 @@ function _defineProperty(obj, key, value) {
   }
 
   return obj;
+=======
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _assertThisInitialized; });
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 }
 
 /***/ }),
@@ -729,6 +946,7 @@ function _defineProperty(obj, key, value) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _assertThisInitialized; });
 function _assertThisInitialized(self) {
   if (self === void 0) {
@@ -736,6 +954,28 @@ function _assertThisInitialized(self) {
   }
 
   return self;
+=======
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _objectSpread; });
+/* harmony import */ var _defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(10);
+
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+    var ownKeys = Object.keys(source);
+
+    if (typeof Object.getOwnPropertySymbols === 'function') {
+      ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {
+        return Object.getOwnPropertyDescriptor(source, sym).enumerable;
+      }));
+    }
+
+    ownKeys.forEach(function (key) {
+      Object(_defineProperty__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(target, key, source[key]);
+    });
+  }
+
+  return target;
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 }
 
 /***/ }),

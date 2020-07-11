@@ -5,9 +5,12 @@
  * Breakpoints & Media Queries
  */
 /**
+<<<<<<< HEAD
  * Colors
  */
 /**
+=======
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  * Often re-used variables
  */
 /**
@@ -26,6 +29,12 @@
  * Applies editor left position to the selector passed as argument
  */
 /**
+<<<<<<< HEAD
+=======
+ * Applies editor right position to the selector passed as argument
+ */
+/**
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  * Styles that are reused verbatim in a few places
  */
 /**
@@ -54,8 +63,14 @@
 
 .list-reusable-blocks__container {
   display: inline-flex;
+<<<<<<< HEAD
   align-items: center;
   position: relative;
   top: -3px; }
   .list-reusable-blocks__container .components-button {
     height: 26px; }
+=======
+  padding: 9px 0 4px;
+  align-items: center;
+  vertical-align: top; }
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5

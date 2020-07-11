@@ -82,12 +82,20 @@ this["wp"] = this["wp"] || {}; this["wp"]["blockSerializationDefaultParser"] =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
+<<<<<<< HEAD
 /******/ 	return __webpack_require__(__webpack_require__.s = 291);
+=======
+/******/ 	return __webpack_require__(__webpack_require__.s = 235);
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /******/ })
 /************************************************************************/
 /******/ ({
 
+<<<<<<< HEAD
 /***/ 20:
+=======
+/***/ 23:
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -97,7 +105,10 @@ var arrayWithHoles = __webpack_require__(38);
 
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js
 function _iterableToArrayLimit(arr, i) {
+<<<<<<< HEAD
   if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return;
+=======
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
   var _arr = [];
   var _n = true;
   var _d = false;
@@ -122,9 +133,12 @@ function _iterableToArrayLimit(arr, i) {
 
   return _arr;
 }
+<<<<<<< HEAD
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js
 var unsupportedIterableToArray = __webpack_require__(27);
 
+=======
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js
 var nonIterableRest = __webpack_require__(39);
 
@@ -133,6 +147,7 @@ var nonIterableRest = __webpack_require__(39);
 
 
 
+<<<<<<< HEAD
 
 function _slicedToArray(arr, i) {
   return Object(arrayWithHoles["a" /* default */])(arr) || _iterableToArrayLimit(arr, i) || Object(unsupportedIterableToArray["a" /* default */])(arr, i) || Object(nonIterableRest["a" /* default */])();
@@ -171,17 +186,29 @@ function _unsupportedIterableToArray(o, minLen) {
   if (n === "Object" && o.constructor) n = o.constructor.name;
   if (n === "Map" || n === "Set") return Array.from(n);
   if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return Object(_arrayLikeToArray__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(o, minLen);
+=======
+function _slicedToArray(arr, i) {
+  return Object(arrayWithHoles["a" /* default */])(arr) || _iterableToArrayLimit(arr, i) || Object(nonIterableRest["a" /* default */])();
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 }
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 291:
+=======
+/***/ 235:
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "parse", function() { return parse; });
+<<<<<<< HEAD
 /* harmony import */ var _babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(20);
+=======
+/* harmony import */ var _babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(23);
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
 var document;
 var offset;
@@ -488,10 +515,17 @@ function nextToken() {
       closerMatch = _matches[1],
       namespaceMatch = _matches[2],
       nameMatch = _matches[3],
+<<<<<<< HEAD
       attrsMatch
   /* internal/unused */
   = _matches[4],
       voidMatch = _matches[6];
+=======
+      attrsMatch = _matches[4],
+
+  /* internal/unused */
+  voidMatch = _matches[6];
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
   var length = match.length;
   var isCloser = !!closerMatch;
@@ -582,7 +616,11 @@ function _arrayWithHoles(arr) {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _nonIterableRest; });
 function _nonIterableRest() {
+<<<<<<< HEAD
   throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+=======
+  throw new TypeError("Invalid attempt to destructure non-iterable instance");
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 }
 
 /***/ })

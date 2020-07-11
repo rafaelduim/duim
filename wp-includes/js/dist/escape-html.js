@@ -82,12 +82,20 @@ this["wp"] = this["wp"] || {}; this["wp"]["escapeHtml"] =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
+<<<<<<< HEAD
 /******/ 	return __webpack_require__(__webpack_require__.s = 450);
+=======
+/******/ 	return __webpack_require__(__webpack_require__.s = 367);
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /******/ })
 /************************************************************************/
 /******/ ({
 
+<<<<<<< HEAD
 /***/ 450:
+=======
+/***/ 367:
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -116,7 +124,10 @@ function __unstableEscapeGreaterThan(value) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "escapeLessThan", function() { return escapeLessThan; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "escapeAttribute", function() { return escapeAttribute; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "escapeHTML", function() { return escapeHTML; });
+<<<<<<< HEAD
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "escapeEditableHTML", function() { return escapeEditableHTML; });
+=======
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "isValidAttributeName", function() { return isValidAttributeName; });
 /**
  * Internal dependencies
@@ -216,6 +227,7 @@ function escapeHTML(value) {
   return escapeLessThan(escapeAmpersand(value));
 }
 /**
+<<<<<<< HEAD
  * Returns an escaped Editable HTML element value. This is different from
  * `escapeHTML`, because for editable HTML, ALL ampersands must be escaped in
  * order to render the content correctly on the page.
@@ -229,6 +241,8 @@ function escapeEditableHTML(value) {
   return escapeLessThan(value.replace(/&/g, '&amp;'));
 }
 /**
+=======
+>>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  * Returns true if the given attribute name is valid, or false otherwise.
  *
  * @param {string} name Attribute name to test.

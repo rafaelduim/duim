@@ -53,8 +53,8 @@ $linkArchiveServices = get_post_type_archive_link(SERVICES);
                 <li><a href="<?php echo $PsnThemes->getUrlSite(); ?>/contato">Contato</a></li>
             </ul>
             <ul class="info-nav">
-                <li class="half-width"><a href="mailto:<?php echo $psn_themes_footer_email; ?>"><i class="fa fa-envelope text-danger"></i> <?php echo $psn_themes_footer_email; ?></a></li>
-                <li class="half-width"><a href="tel:<?php echo $psn_themes_footer_number; ?>"><i class="fa fa-phone text-danger"></i> <?php echo $psn_themes_footer_number; ?></a></li>
+                <li class="half-width"><a href="mailto:<?php echo $psn_themes_footer_email; ?>"><i class="fa fa-envelope text-info"></i> <?php echo $psn_themes_footer_email; ?></a></li>
+                <li class="half-width"><a href="tel:<?php echo $psn_themes_footer_number; ?>"><i class="fa fa-phone text-info"></i> <?php echo $psn_themes_footer_number; ?></a></li>
             </ul>
             <ul class="social-nav">
                 <li><a href="<?php echo $psn_themes_social_facebook; ?>" class=""><i class="fa fa-facebook"></i></a></li>

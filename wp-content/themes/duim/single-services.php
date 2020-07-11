@@ -64,7 +64,7 @@ get_header();
                         </div>
                     </div>
                 </div>
-            </div>
+
         
             
             <div class="clearfix bg-light" id="services-featured" data-load="ajax" data-parametros='action:"servicesFeatured" , count: 3 , home: true , id : <?php echo $idService; ?>'>

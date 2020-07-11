@@ -85,7 +85,7 @@ function servicesGallery() {
         $id = $_POST['id'];
         $services_gallery = get_field('services_gallery',$id);
     ?>
-        <div class="owl-carousel owl-theme port1 m-t-40">
+        <div class="owl-carousel owl-theme port1">
             <?php 
             if($services_gallery){
                 foreach ($services_gallery as $image) {
