@@ -35,9 +35,6 @@ get_header();
                 <article class="m-t-30 text-services">
                     <?php the_content(); ?>
                 </article>
-
-                <div class="mini-spacer"></div>
-                
                 
             </div>
             
