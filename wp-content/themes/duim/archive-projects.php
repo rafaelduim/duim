@@ -11,7 +11,7 @@ get_header();
 
     get_template_part( 'incs/partial/all/all', 'banner-internal' );
 ?>
-<div class="container-fluid" id="projects-featured" data-load="ajax" data-parametros='action:"projectsFeatured" , count:4'>
+<div class="container-fluid" id="projects-featured" data-load="ajax" data-parametros='action:"projectsFeatured" , count:-1'>
     <div class="container m-t-40 m-b-40">
         <?php 
         get_template_part( 'incs/partial/all/all', 'loading' );
@@ -19,5 +19,15 @@ get_header();
     </div>
 </div>
 <?php 
+    add_footer('script_projetos');
+    function script_projetos() {
+        ?>
+        <script>
+            jQuery(function ($) {
+                $('#menu-projetos').addClass('active');
+            });
+        </script>
+        <?php
+    }
 get_footer();
 ?>

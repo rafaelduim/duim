@@ -420,3 +420,50 @@ team 1
 		max-height: 500px;
 	}
 }
+
+/*******************
+Blog homepage 6
+*******************/
+.blog-home6{
+    .form-control{
+        padding:13px;
+    }
+    .blog-row{
+        margin-bottom:30px;
+        a{
+            color:$dark;
+            &:hover{
+                color:$themecolor;
+            }
+        }
+        h5{
+            font-weight: 500;
+            margin-top: 10px;
+        }
+    }
+}
+
+.pagination {
+	border-radius: 0;
+	li {
+		.page-link {
+			transition: .3s;
+			$w: 40px;
+			width: $w;
+			height: $w;
+			line-height: $w;
+			padding: 0;
+			text-align: center;
+			border: none;
+			margin-right: 5px;
+			border-radius: 50px !important;
+			border: 1px solid #eee;
+			background: #f1f1f1;
+			&:hover,
+			&[aria-current="page"] {
+				background: $themecolor;
+				color: #FFF;
+			}
+		}
+	}
+}

@@ -82,11 +82,7 @@ this["wp"] = this["wp"] || {}; this["wp"]["data"] =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-<<<<<<< HEAD
 /******/ 	return __webpack_require__(__webpack_require__.s = 426);
-=======
-/******/ 	return __webpack_require__(__webpack_require__.s = 348);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -98,7 +94,6 @@ this["wp"] = this["wp"] || {}; this["wp"]["data"] =
 
 /***/ }),
 
-<<<<<<< HEAD
 /***/ 12:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -137,31 +132,6 @@ function isPromise(obj) {
 /***/ }),
 
 /***/ 143:
-=======
-/***/ 10:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _defineProperty; });
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    Object.defineProperty(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
-}
-
-/***/ }),
-
-/***/ 111:
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, exports) {
 
 function combineReducers( reducers ) {
@@ -220,7 +190,6 @@ module.exports = combineReducers;
 
 /***/ }),
 
-<<<<<<< HEAD
 /***/ 18:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -261,13 +230,6 @@ function _toConsumableArray(arr) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(global, module) {/* harmony import */ var _ponyfill_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(273);
-=======
-/***/ 145:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global, module) {/* harmony import */ var _ponyfill_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(229);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /* global window */
 
 
@@ -286,7 +248,6 @@ if (typeof self !== 'undefined') {
 var result = Object(_ponyfill_js__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(root);
 /* harmony default export */ __webpack_exports__["a"] = (result);
 
-<<<<<<< HEAD
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(73), __webpack_require__(397)(module)))
 
 /***/ }),
@@ -299,18 +260,10 @@ var result = Object(_ponyfill_js__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"]
 /***/ }),
 
 /***/ 20:
-=======
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(65), __webpack_require__(318)(module)))
-
-/***/ }),
-
-/***/ 17:
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 
-<<<<<<< HEAD
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js
 var arrayWithHoles = __webpack_require__(38);
 
@@ -355,37 +308,10 @@ var nonIterableRest = __webpack_require__(39);
 
 function _slicedToArray(arr, i) {
   return Object(arrayWithHoles["a" /* default */])(arr) || _iterableToArrayLimit(arr, i) || Object(unsupportedIterableToArray["a" /* default */])(arr, i) || Object(nonIterableRest["a" /* default */])();
-=======
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js
-function _arrayWithoutHoles(arr) {
-  if (Array.isArray(arr)) {
-    for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {
-      arr2[i] = arr[i];
-    }
-
-    return arr2;
-  }
-}
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/iterableToArray.js
-var iterableToArray = __webpack_require__(30);
-
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js
-function _nonIterableSpread() {
-  throw new TypeError("Invalid attempt to spread non-iterable instance");
-}
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _toConsumableArray; });
-
-
-
-function _toConsumableArray(arr) {
-  return _arrayWithoutHoles(arr) || Object(iterableToArray["a" /* default */])(arr) || _nonIterableSpread();
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 }
 
 /***/ }),
 
-<<<<<<< HEAD
 /***/ 21:
 /***/ (function(module, exports) {
 
@@ -436,60 +362,13 @@ function _unsupportedIterableToArray(o, minLen) {
 /***/ }),
 
 /***/ 272:
-=======
-/***/ 18:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _extends; });
-function _extends() {
-  _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];
-
-      for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }
-
-    return target;
-  };
-
-  return _extends.apply(this, arguments);
-}
-
-/***/ }),
-
-/***/ 2:
-/***/ (function(module, exports) {
-
-(function() { module.exports = this["lodash"]; }());
-
-/***/ }),
-
-/***/ 20:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(47);
-
-
-/***/ }),
-
-/***/ 228:
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, exports) {
 
 (function() { module.exports = this["wp"]["reduxRoutine"]; }());
 
 /***/ }),
 
-<<<<<<< HEAD
 /***/ 273:
-=======
-/***/ 229:
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -515,7 +394,6 @@ function symbolObservablePonyfill(root) {
 
 /***/ }),
 
-<<<<<<< HEAD
 /***/ 274:
 /***/ (function(module, exports) {
 
@@ -559,79 +437,11 @@ function _arrayWithHoles(arr) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _nonIterableRest; });
 function _nonIterableRest() {
   throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
-=======
-/***/ 23:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js
-var arrayWithHoles = __webpack_require__(38);
-
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js
-function _iterableToArrayLimit(arr, i) {
-  var _arr = [];
-  var _n = true;
-  var _d = false;
-  var _e = undefined;
-
-  try {
-    for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {
-      _arr.push(_s.value);
-
-      if (i && _arr.length === i) break;
-    }
-  } catch (err) {
-    _d = true;
-    _e = err;
-  } finally {
-    try {
-      if (!_n && _i["return"] != null) _i["return"]();
-    } finally {
-      if (_d) throw _e;
-    }
-  }
-
-  return _arr;
-}
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js
-var nonIterableRest = __webpack_require__(39);
-
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _slicedToArray; });
-
-
-
-function _slicedToArray(arr, i) {
-  return Object(arrayWithHoles["a" /* default */])(arr) || _iterableToArrayLimit(arr, i) || Object(nonIterableRest["a" /* default */])();
 }
 
 /***/ }),
 
-/***/ 230:
-/***/ (function(module, exports) {
-
-(function() { module.exports = this["wp"]["priorityQueue"]; }());
-
-/***/ }),
-
-/***/ 30:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _iterableToArray; });
-function _iterableToArray(iter) {
-  if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
-}
-
-/***/ }),
-
-<<<<<<< HEAD
 /***/ 397:
-=======
-/***/ 318:
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, exports) {
 
 module.exports = function(originalModule) {
@@ -662,11 +472,7 @@ module.exports = function(originalModule) {
 
 /***/ }),
 
-<<<<<<< HEAD
 /***/ 426:
-=======
-/***/ 348:
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -691,7 +497,6 @@ __webpack_require__.d(plugins_namespaceObject, "controls", function() { return c
 __webpack_require__.d(plugins_namespaceObject, "persistence", function() { return plugins_persistence; });
 
 // EXTERNAL MODULE: ./node_modules/turbo-combine-reducers/index.js
-<<<<<<< HEAD
 var turbo_combine_reducers = __webpack_require__(143);
 var turbo_combine_reducers_default = /*#__PURE__*/__webpack_require__.n(turbo_combine_reducers);
 
@@ -717,29 +522,6 @@ var asyncToGenerator = __webpack_require__(49);
 
 // EXTERNAL MODULE: ./node_modules/symbol-observable/es/index.js
 var es = __webpack_require__(187);
-=======
-var turbo_combine_reducers = __webpack_require__(111);
-var turbo_combine_reducers_default = /*#__PURE__*/__webpack_require__.n(turbo_combine_reducers);
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js + 1 modules
-var slicedToArray = __webpack_require__(23);
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/objectSpread.js
-var objectSpread = __webpack_require__(7);
-
-// EXTERNAL MODULE: external "lodash"
-var external_lodash_ = __webpack_require__(2);
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/regenerator/index.js
-var regenerator = __webpack_require__(20);
-var regenerator_default = /*#__PURE__*/__webpack_require__.n(regenerator);
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js
-var asyncToGenerator = __webpack_require__(43);
-
-// EXTERNAL MODULE: ./node_modules/symbol-observable/es/index.js
-var es = __webpack_require__(145);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
 // CONCATENATED MODULE: ./node_modules/redux/es/redux.js
 
@@ -890,11 +672,7 @@ function createStore(reducer, preloadedState, enhancer) {
     }
 
     if (isDispatching) {
-<<<<<<< HEAD
       throw new Error('You may not call store.subscribe() while the reducer is executing. ' + 'If you would like to be notified after the store has been updated, subscribe from a ' + 'component and invoke store.getState() in the callback to access the latest state. ' + 'See https://redux.js.org/api-reference/store#subscribelistener for more details.');
-=======
-      throw new Error('You may not call store.subscribe() while the reducer is executing. ' + 'If you would like to be notified after the store has been updated, subscribe from a ' + 'component and invoke store.getState() in the callback to access the latest state. ' + 'See https://redux.js.org/api-reference/store#subscribe(listener) for more details.');
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
     }
 
     var isSubscribed = true;
@@ -906,21 +684,14 @@ function createStore(reducer, preloadedState, enhancer) {
       }
 
       if (isDispatching) {
-<<<<<<< HEAD
         throw new Error('You may not unsubscribe from a store listener while the reducer is executing. ' + 'See https://redux.js.org/api-reference/store#subscribelistener for more details.');
-=======
-        throw new Error('You may not unsubscribe from a store listener while the reducer is executing. ' + 'See https://redux.js.org/api-reference/store#subscribe(listener) for more details.');
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
       }
 
       isSubscribed = false;
       ensureCanMutateNextListeners();
       var index = nextListeners.indexOf(listener);
       nextListeners.splice(index, 1);
-<<<<<<< HEAD
       currentListeners = null;
-=======
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
     };
   }
   /**
@@ -1210,10 +981,7 @@ function combineReducers(reducers) {
       hasChanged = hasChanged || nextStateForKey !== previousStateForKey;
     }
 
-<<<<<<< HEAD
     hasChanged = hasChanged || finalReducerKeys.length !== Object.keys(state).length;
-=======
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
     return hasChanged ? nextState : state;
   };
 }
@@ -1407,19 +1175,11 @@ if (false) {}
 
 
 // EXTERNAL MODULE: external {"this":["wp","reduxRoutine"]}
-<<<<<<< HEAD
 var external_this_wp_reduxRoutine_ = __webpack_require__(272);
 var external_this_wp_reduxRoutine_default = /*#__PURE__*/__webpack_require__.n(external_this_wp_reduxRoutine_);
 
 // EXTERNAL MODULE: ./node_modules/is-promise/index.js
 var is_promise = __webpack_require__(129);
-=======
-var external_this_wp_reduxRoutine_ = __webpack_require__(228);
-var external_this_wp_reduxRoutine_default = /*#__PURE__*/__webpack_require__.n(external_this_wp_reduxRoutine_);
-
-// EXTERNAL MODULE: ./node_modules/is-promise/index.js
-var is_promise = __webpack_require__(98);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 var is_promise_default = /*#__PURE__*/__webpack_require__.n(is_promise);
 
 // CONCATENATED MODULE: ./node_modules/@wordpress/data/build-module/promise-middleware.js
@@ -1452,11 +1212,7 @@ var promise_middleware_promiseMiddleware = function promiseMiddleware() {
 /* harmony default export */ var promise_middleware = (promise_middleware_promiseMiddleware);
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js + 2 modules
-<<<<<<< HEAD
 var toConsumableArray = __webpack_require__(18);
-=======
-var toConsumableArray = __webpack_require__(17);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
 // CONCATENATED MODULE: ./node_modules/@wordpress/data/build-module/resolvers-cache-middleware.js
 
@@ -1466,11 +1222,8 @@ var toConsumableArray = __webpack_require__(17);
  * External dependencies
  */
 
-<<<<<<< HEAD
 /** @typedef {import('./registry').WPDataRegistry} WPDataRegistry */
 
-=======
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /**
  * Creates a middleware handling resolvers cache invalidation.
  *
@@ -1492,11 +1245,7 @@ var resolvers_cache_middleware_createResolversCacheMiddleware = function createR
               selectorName = _ref2[0],
               resolversByArgs = _ref2[1];
 
-<<<<<<< HEAD
           var resolver = Object(external_this_lodash_["get"])(registry.stores, [reducerKey, 'resolvers', selectorName]);
-=======
-          var resolver = Object(external_lodash_["get"])(registry.stores, [reducerKey, 'resolvers', selectorName]);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
           if (!resolver || !resolver.shouldInvalidate) {
             return;
@@ -1523,7 +1272,6 @@ var resolvers_cache_middleware_createResolversCacheMiddleware = function createR
 /* harmony default export */ var resolvers_cache_middleware = (resolvers_cache_middleware_createResolversCacheMiddleware);
 
 // EXTERNAL MODULE: ./node_modules/equivalent-key-map/equivalent-key-map.js
-<<<<<<< HEAD
 var equivalent_key_map = __webpack_require__(64);
 var equivalent_key_map_default = /*#__PURE__*/__webpack_require__.n(equivalent_key_map);
 
@@ -1533,17 +1281,6 @@ var equivalent_key_map_default = /*#__PURE__*/__webpack_require__.n(equivalent_k
 function utils_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { utils_ownKeys(Object(source), true).forEach(function (key) { Object(defineProperty["a" /* default */])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { utils_ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-=======
-var equivalent_key_map = __webpack_require__(74);
-var equivalent_key_map_default = /*#__PURE__*/__webpack_require__.n(equivalent_key_map);
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/defineProperty.js
-var defineProperty = __webpack_require__(10);
-
-// CONCATENATED MODULE: ./node_modules/@wordpress/data/build-module/namespace-store/metadata/utils.js
-
-
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
 /**
  * Higher-order reducer creator which creates a combined reducer object, keyed
@@ -1574,11 +1311,7 @@ var utils_onSubKey = function onSubKey(actionProperty) {
         return state;
       }
 
-<<<<<<< HEAD
       return _objectSpread({}, state, Object(defineProperty["a" /* default */])({}, key, nextKeyState));
-=======
-      return Object(objectSpread["a" /* default */])({}, state, Object(defineProperty["a" /* default */])({}, key, nextKeyState));
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
     };
   };
 };
@@ -1606,11 +1339,7 @@ var utils_onSubKey = function onSubKey(actionProperty) {
  * @return {Object} Next state.
  */
 
-<<<<<<< HEAD
 var subKeysIsResolved = Object(external_this_lodash_["flowRight"])([utils_onSubKey('selectorName')])(function () {
-=======
-var subKeysIsResolved = Object(external_lodash_["flowRight"])([utils_onSubKey('selectorName')])(function () {
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
   var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : new equivalent_key_map_default.a();
   var action = arguments.length > 1 ? arguments[1] : undefined;
 
@@ -1656,11 +1385,7 @@ var reducer_isResolved = function isResolved() {
       return {};
 
     case 'INVALIDATE_RESOLUTION_FOR_STORE_SELECTOR':
-<<<<<<< HEAD
       return Object(external_this_lodash_["has"])(state, [action.selectorName]) ? Object(external_this_lodash_["omit"])(state, [action.selectorName]) : state;
-=======
-      return Object(external_lodash_["has"])(state, [action.selectorName]) ? Object(external_lodash_["omit"])(state, [action.selectorName]) : state;
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
     case 'START_RESOLUTION':
     case 'FINISH_RESOLUTION':
@@ -1692,11 +1417,7 @@ var reducer_isResolved = function isResolved() {
  */
 
 function getIsResolving(state, selectorName, args) {
-<<<<<<< HEAD
   var map = Object(external_this_lodash_["get"])(state, [selectorName]);
-=======
-  var map = Object(external_lodash_["get"])(state, [selectorName]);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
   if (!map) {
     return;
@@ -1845,13 +1566,10 @@ function invalidateResolutionForStoreSelector(selectorName) {
 
 
 
-<<<<<<< HEAD
 function namespace_store_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function namespace_store_objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { namespace_store_ownKeys(Object(source), true).forEach(function (key) { Object(defineProperty["a" /* default */])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { namespace_store_ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
-=======
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /**
  * External dependencies
  */
@@ -1873,11 +1591,7 @@ function namespace_store_objectSpread(target) { for (var i = 1; i < arguments.le
 
 
 /**
-<<<<<<< HEAD
  * @typedef {WPDataRegistry} WPDataRegistry
-=======
- * @typedef {import('../registry').WPDataRegistry} WPDataRegistry
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  */
 
 /**
@@ -1896,13 +1610,8 @@ function createNamespace(key, options, registry) {
   var reducer = options.reducer;
   var store = createReduxStore(key, options, registry);
   var resolvers;
-<<<<<<< HEAD
   var actions = mapActions(namespace_store_objectSpread({}, actions_namespaceObject, {}, options.actions), store);
   var selectors = mapSelectors(namespace_store_objectSpread({}, Object(external_this_lodash_["mapValues"])(selectors_namespaceObject, function (selector) {
-=======
-  var actions = mapActions(Object(objectSpread["a" /* default */])({}, actions_namespaceObject, options.actions), store);
-  var selectors = mapSelectors(Object(objectSpread["a" /* default */])({}, Object(external_lodash_["mapValues"])(selectors_namespaceObject, function (selector) {
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
     return function (state) {
       for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
         args[_key - 1] = arguments[_key];
@@ -1910,11 +1619,7 @@ function createNamespace(key, options, registry) {
 
       return selector.apply(void 0, [state.metadata].concat(args));
     };
-<<<<<<< HEAD
   }), {}, Object(external_this_lodash_["mapValues"])(options.selectors, function (selector) {
-=======
-  }), Object(external_lodash_["mapValues"])(options.selectors, function (selector) {
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
     if (selector.isRegistrySelector) {
       selector.registry = registry;
     }
@@ -1997,11 +1702,7 @@ function createReduxStore(key, options, registry) {
   var middlewares = [resolvers_cache_middleware(registry, key), promise_middleware];
 
   if (options.controls) {
-<<<<<<< HEAD
     var normalizedControls = Object(external_this_lodash_["mapValues"])(options.controls, function (control) {
-=======
-    var normalizedControls = Object(external_lodash_["mapValues"])(options.controls, function (control) {
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
       return control.isRegistryControl ? control(registry) : control;
     });
     middlewares.push(external_this_wp_reduxRoutine_default()(normalizedControls));
@@ -2024,11 +1725,7 @@ function createReduxStore(key, options, registry) {
   });
   return createStore(enhancedReducer, {
     root: initialState
-<<<<<<< HEAD
   }, Object(external_this_lodash_["flowRight"])(enhancers));
-=======
-  }, Object(external_lodash_["flowRight"])(enhancers));
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 }
 /**
  * Maps selectors to a store.
@@ -2067,11 +1764,7 @@ function mapSelectors(selectors, store) {
     return selector;
   };
 
-<<<<<<< HEAD
   return Object(external_this_lodash_["mapValues"])(selectors, createStateSelector);
-=======
-  return Object(external_lodash_["mapValues"])(selectors, createStateSelector);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 }
 /**
  * Maps actions to dispatch from a given store.
@@ -2089,11 +1782,7 @@ function mapActions(actions, store) {
     };
   };
 
-<<<<<<< HEAD
   return Object(external_this_lodash_["mapValues"])(actions, createBoundAction);
-=======
-  return Object(external_lodash_["mapValues"])(actions, createBoundAction);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 }
 /**
  * Returns resolvers with matched selectors for a given namespace.
@@ -2108,17 +1797,10 @@ function mapActions(actions, store) {
 
 
 function mapResolvers(resolvers, selectors, store) {
-<<<<<<< HEAD
   var mappedResolvers = Object(external_this_lodash_["mapValues"])(resolvers, function (resolver) {
     var _resolver$fulfill = resolver.fulfill,
         resolverFulfill = _resolver$fulfill === void 0 ? resolver : _resolver$fulfill;
     return namespace_store_objectSpread({}, resolver, {
-=======
-  var mappedResolvers = Object(external_lodash_["mapValues"])(resolvers, function (resolver) {
-    var _resolver$fulfill = resolver.fulfill,
-        resolverFulfill = _resolver$fulfill === void 0 ? resolver : _resolver$fulfill;
-    return Object(objectSpread["a" /* default */])({}, resolver, {
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
       fulfill: resolverFulfill
     });
   });
@@ -2143,17 +1825,10 @@ function mapResolvers(resolvers, selectors, store) {
       function _fulfillSelector() {
         _fulfillSelector = Object(asyncToGenerator["a" /* default */])(
         /*#__PURE__*/
-<<<<<<< HEAD
         external_this_regeneratorRuntime_default.a.mark(function _callee() {
           var state, _store$__unstableOrig, metadata;
 
           return external_this_regeneratorRuntime_default.a.wrap(function _callee$(_context) {
-=======
-        regenerator_default.a.mark(function _callee() {
-          var state, _store$__unstableOrig, metadata;
-
-          return regenerator_default.a.wrap(function _callee$(_context) {
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
             while (1) {
               switch (_context.prev = _context.next) {
                 case 0:
@@ -2204,11 +1879,7 @@ function mapResolvers(resolvers, selectors, store) {
 
   return {
     resolvers: mappedResolvers,
-<<<<<<< HEAD
     selectors: Object(external_this_lodash_["mapValues"])(selectors, mapSelector)
-=======
-    selectors: Object(external_lodash_["mapValues"])(selectors, mapSelector)
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
   };
 }
 /**
@@ -2228,11 +1899,7 @@ function fulfillResolver(_x, _x2, _x3) {
 function _fulfillResolver() {
   _fulfillResolver = Object(asyncToGenerator["a" /* default */])(
   /*#__PURE__*/
-<<<<<<< HEAD
   external_this_regeneratorRuntime_default.a.mark(function _callee2(store, resolvers, selectorName) {
-=======
-  regenerator_default.a.mark(function _callee2(store, resolvers, selectorName) {
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
     var resolver,
         _len4,
         args,
@@ -2240,19 +1907,11 @@ function _fulfillResolver() {
         action,
         _args2 = arguments;
 
-<<<<<<< HEAD
     return external_this_regeneratorRuntime_default.a.wrap(function _callee2$(_context2) {
       while (1) {
         switch (_context2.prev = _context2.next) {
           case 0:
             resolver = Object(external_this_lodash_["get"])(resolvers, [selectorName]);
-=======
-    return regenerator_default.a.wrap(function _callee2$(_context2) {
-      while (1) {
-        switch (_context2.prev = _context2.next) {
-          case 0:
-            resolver = Object(external_lodash_["get"])(resolvers, [selectorName]);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
             if (resolver) {
               _context2.next = 3;
@@ -2289,12 +1948,9 @@ function _fulfillResolver() {
 // CONCATENATED MODULE: ./node_modules/@wordpress/data/build-module/store/index.js
 
 
-<<<<<<< HEAD
 function store_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function store_objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { store_ownKeys(Object(source), true).forEach(function (key) { Object(defineProperty["a" /* default */])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { store_ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-=======
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
 function createCoreDataStore(registry) {
   var getCoreDataSelector = function getCoreDataSelector(selectorName) {
@@ -2324,20 +1980,12 @@ function createCoreDataStore(registry) {
   return {
     getSelectors: function getSelectors() {
       return ['getIsResolving', 'hasStartedResolution', 'hasFinishedResolution', 'isResolving', 'getCachedResolvers'].reduce(function (memo, selectorName) {
-<<<<<<< HEAD
         return store_objectSpread({}, memo, Object(defineProperty["a" /* default */])({}, selectorName, getCoreDataSelector(selectorName)));
-=======
-        return Object(objectSpread["a" /* default */])({}, memo, Object(defineProperty["a" /* default */])({}, selectorName, getCoreDataSelector(selectorName)));
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
       }, {});
     },
     getActions: function getActions() {
       return ['startResolution', 'finishResolution', 'invalidateResolution', 'invalidateResolutionForStore', 'invalidateResolutionForStoreSelector'].reduce(function (memo, actionName) {
-<<<<<<< HEAD
         return store_objectSpread({}, memo, Object(defineProperty["a" /* default */])({}, actionName, getCoreDataAction(actionName)));
-=======
-        return Object(objectSpread["a" /* default */])({}, memo, Object(defineProperty["a" /* default */])({}, actionName, getCoreDataAction(actionName)));
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
       }, {});
     },
     subscribe: function subscribe() {
@@ -2356,21 +2004,15 @@ function createCoreDataStore(registry) {
 
 
 
-<<<<<<< HEAD
 function registry_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function registry_objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { registry_ownKeys(Object(source), true).forEach(function (key) { Object(defineProperty["a" /* default */])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { registry_ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
-=======
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /**
  * External dependencies
  */
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /**
  * Internal dependencies
  */
@@ -2437,11 +2079,7 @@ function createRegistry() {
   var subscribe = function subscribe(listener) {
     listeners.push(listener);
     return function () {
-<<<<<<< HEAD
       listeners = Object(external_this_lodash_["without"])(listeners, listener);
-=======
-      listeners = Object(external_lodash_["without"])(listeners, listener);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
     };
   };
   /**
@@ -2463,7 +2101,6 @@ function createRegistry() {
 
     return parent && parent.select(reducerKey);
   }
-<<<<<<< HEAD
 
   var getResolveSelectors = memize_default()(function (selectors) {
     return Object(external_this_lodash_["mapValues"])(Object(external_this_lodash_["omit"])(selectors, ['getIsResolving', 'hasStartedResolution', 'hasFinishedResolution', 'isResolving', 'getCachedResolvers']), function (selector, selectorName) {
@@ -2515,8 +2152,6 @@ function createRegistry() {
   function __experimentalResolveSelect(reducerKey) {
     return getResolveSelectors(select(reducerKey));
   }
-=======
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
   /**
    * Returns the available actions for a part of the state.
    *
@@ -2542,11 +2177,7 @@ function createRegistry() {
 
 
   function withPlugins(attributes) {
-<<<<<<< HEAD
     return Object(external_this_lodash_["mapValues"])(attributes, function (attribute, key) {
-=======
-    return Object(external_lodash_["mapValues"])(attributes, function (attribute, key) {
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
       if (typeof attribute !== 'function') {
         return attribute;
       }
@@ -2588,10 +2219,7 @@ function createRegistry() {
     // TODO: Deprecate/remove this.
     subscribe: subscribe,
     select: select,
-<<<<<<< HEAD
     __experimentalResolveSelect: __experimentalResolveSelect,
-=======
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
     dispatch: dispatch,
     use: use
   };
@@ -2619,11 +2247,7 @@ function createRegistry() {
 
 
   function use(plugin, options) {
-<<<<<<< HEAD
     registry = registry_objectSpread({}, registry, {}, plugin(registry, options));
-=======
-    registry = Object(objectSpread["a" /* default */])({}, registry, plugin(registry, options));
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
     return registry;
   }
 
@@ -2712,12 +2336,9 @@ try {
 // CONCATENATED MODULE: ./node_modules/@wordpress/data/build-module/plugins/persistence/index.js
 
 
-<<<<<<< HEAD
 function persistence_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function persistence_objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { persistence_ownKeys(Object(source), true).forEach(function (key) { Object(defineProperty["a" /* default */])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { persistence_ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-=======
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
 /**
  * External dependencies
@@ -2729,13 +2350,10 @@ function persistence_objectSpread(target) { for (var i = 1; i < arguments.length
 
 
 
-<<<<<<< HEAD
 /** @typedef {import('../../registry').WPDataRegistry} WPDataRegistry */
 
 /** @typedef {import('../../registry').WPDataPlugin} WPDataPlugin */
 
-=======
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /**
  * @typedef {Object} WPDataPersistencePluginOptions Persistence plugin options.
  *
@@ -2830,11 +2448,7 @@ function createPersistenceInterface(options) {
 
 
   function setData(key, value) {
-<<<<<<< HEAD
     data = persistence_objectSpread({}, data, Object(defineProperty["a" /* default */])({}, key, value));
-=======
-    data = Object(objectSpread["a" /* default */])({}, data, Object(defineProperty["a" /* default */])({}, key, value));
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
     storage.setItem(storageKey, JSON.stringify(data));
   }
 
@@ -2874,13 +2488,8 @@ var persistence_persistencePlugin = function persistencePlugin(registry, pluginO
       // to leverage its behavior of returning the same object when none
       // of the property values changes. This allows a strict reference
       // equality to bypass a persistence set on an unchanging state.
-<<<<<<< HEAD
       var reducers = keys.reduce(function (accumulator, key) {
         return Object.assign(accumulator, Object(defineProperty["a" /* default */])({}, key, function (state, action) {
-=======
-      var reducers = keys.reduce(function (result, key) {
-        return Object.assign(result, Object(defineProperty["a" /* default */])({}, key, function (state, action) {
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
           return action.nextState[key];
         }));
       }, {});
@@ -2920,32 +2529,20 @@ var persistence_persistencePlugin = function persistencePlugin(registry, pluginO
           type: '@@WP/PERSISTENCE_RESTORE'
         });
 
-<<<<<<< HEAD
         if (Object(external_this_lodash_["isPlainObject"])(initialState) && Object(external_this_lodash_["isPlainObject"])(persistedState)) {
-=======
-        if (Object(external_lodash_["isPlainObject"])(initialState) && Object(external_lodash_["isPlainObject"])(persistedState)) {
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
           // If state is an object, ensure that:
           // - Other keys are left intact when persisting only a
           //   subset of keys.
           // - New keys in what would otherwise be used as initial
           //   state are deeply merged as base for persisted value.
-<<<<<<< HEAD
           initialState = Object(external_this_lodash_["merge"])({}, initialState, persistedState);
-=======
-          initialState = Object(external_lodash_["merge"])({}, initialState, persistedState);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
         } else {
           // If there is a mismatch in object-likeness of default
           // initial or persisted state, defer to persisted value.
           initialState = persistedState;
         }
 
-<<<<<<< HEAD
         options = persistence_objectSpread({}, options, {
-=======
-        options = Object(objectSpread["a" /* default */])({}, options, {
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
           initialState: initialState
         });
       }
@@ -2957,26 +2554,16 @@ var persistence_persistencePlugin = function persistencePlugin(registry, pluginO
   };
 };
 /**
-<<<<<<< HEAD
  * Deprecated: Remove this function and the code in WordPress Core that calls
  * it once WordPress 5.4 is released.
-=======
- * Deprecated: Remove this function once WordPress 5.3 is released.
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  */
 
 
 persistence_persistencePlugin.__unstableMigrate = function (pluginOptions) {
-<<<<<<< HEAD
   var persistence = createPersistenceInterface(pluginOptions);
   var state = persistence.get(); // Migrate 'insertUsage' from 'core/editor' to 'core/block-editor'
 
   var insertUsage = Object(external_this_lodash_["get"])(state, ['core/editor', 'preferences', 'insertUsage']);
-=======
-  var persistence = createPersistenceInterface(pluginOptions); // Preferences migration to introduce the block editor module
-
-  var insertUsage = Object(external_lodash_["get"])(persistence.get(), ['core/editor', 'preferences', 'insertUsage']);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
   if (insertUsage) {
     persistence.set('core/block-editor', {
@@ -2985,7 +2572,6 @@ persistence_persistencePlugin.__unstableMigrate = function (pluginOptions) {
       }
     });
   }
-<<<<<<< HEAD
 
   var editPostState = state['core/edit-post']; // Default `fullscreenMode` to `false` if any persisted state had existed
   // and the user hadn't made an explicit choice about fullscreen mode. This
@@ -3023,8 +2609,6 @@ persistence_persistencePlugin.__unstableMigrate = function (pluginOptions) {
   if (editPostState !== state['core/edit-post']) {
     persistence.set('core/edit-post', editPostState);
   }
-=======
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 };
 
 /* harmony default export */ var plugins_persistence = (persistence_persistencePlugin);
@@ -3034,11 +2618,7 @@ persistence_persistencePlugin.__unstableMigrate = function (pluginOptions) {
 
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
-<<<<<<< HEAD
 var esm_extends = __webpack_require__(12);
-=======
-var esm_extends = __webpack_require__(18);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
 // EXTERNAL MODULE: external {"this":["wp","element"]}
 var external_this_wp_element_ = __webpack_require__(0);
@@ -3046,7 +2626,6 @@ var external_this_wp_element_ = __webpack_require__(0);
 // EXTERNAL MODULE: external {"this":["wp","compose"]}
 var external_this_wp_compose_ = __webpack_require__(8);
 
-<<<<<<< HEAD
 // EXTERNAL MODULE: external {"this":"React"}
 var external_this_React_ = __webpack_require__(21);
 
@@ -3100,13 +2679,6 @@ var external_this_wp_priorityQueue_ = __webpack_require__(274);
 
 // EXTERNAL MODULE: external {"this":["wp","isShallowEqual"]}
 var external_this_wp_isShallowEqual_ = __webpack_require__(51);
-=======
-// EXTERNAL MODULE: external {"this":["wp","priorityQueue"]}
-var external_this_wp_priorityQueue_ = __webpack_require__(230);
-
-// EXTERNAL MODULE: external {"this":["wp","isShallowEqual"]}
-var external_this_wp_isShallowEqual_ = __webpack_require__(41);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 var external_this_wp_isShallowEqual_default = /*#__PURE__*/__webpack_require__.n(external_this_wp_isShallowEqual_);
 
 // CONCATENATED MODULE: ./node_modules/@wordpress/data/build-module/components/registry-provider/context.js
@@ -3228,7 +2800,6 @@ var context_Context = Object(external_this_wp_element_["createContext"])(false);
 var context_Consumer = context_Context.Consumer,
     context_Provider = context_Context.Provider;
 var AsyncModeConsumer = context_Consumer;
-<<<<<<< HEAD
 /**
  * Context Provider Component used to switch the data module component rerendering
  * between Sync and Async modes.
@@ -3264,8 +2835,6 @@ var AsyncModeConsumer = context_Consumer;
  * @return {WPComponent} The component to be rendered.
  */
 
-=======
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /* harmony default export */ var async_mode_provider_context = (context_Provider);
 
 // CONCATENATED MODULE: ./node_modules/@wordpress/data/build-module/components/async-mode-provider/use-async-mode.js
@@ -3286,22 +2855,16 @@ function useAsyncMode() {
 
 
 /**
-<<<<<<< HEAD
  * External dependencies
  */
 
 /**
-=======
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  * WordPress dependencies
  */
 
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /**
  * Internal dependencies
  */
@@ -3366,16 +2929,11 @@ var renderQueue = Object(external_this_wp_priorityQueue_["createQueue"])();
 function useSelect(_mapSelect, deps) {
   var mapSelect = Object(external_this_wp_element_["useCallback"])(_mapSelect, deps);
   var registry = useRegistry();
-<<<<<<< HEAD
   var isAsync = useAsyncMode(); // React can sometimes clear the `useMemo` cache.
   // We use the cache-stable `useMemoOne` to avoid
   // losing queues.
 
   var queueContext = useMemoOne(function () {
-=======
-  var isAsync = useAsyncMode();
-  var queueContext = Object(external_this_wp_element_["useMemo"])(function () {
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
     return {
       queue: true
     };
@@ -3391,11 +2949,7 @@ function useSelect(_mapSelect, deps) {
   var latestIsAsync = Object(external_this_wp_element_["useRef"])(isAsync);
   var latestMapOutput = Object(external_this_wp_element_["useRef"])();
   var latestMapOutputError = Object(external_this_wp_element_["useRef"])();
-<<<<<<< HEAD
   var isMountedAndNotUnsubscribing = Object(external_this_wp_element_["useRef"])();
-=======
-  var isMounted = Object(external_this_wp_element_["useRef"])();
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
   var mapOutput;
 
   try {
@@ -3412,46 +2966,29 @@ function useSelect(_mapSelect, deps) {
       errorMessage += "".concat(latestMapOutputError.current.stack, "\n\n");
       errorMessage += 'Original stack trace:';
       throw new Error(errorMessage);
-<<<<<<< HEAD
     } else {
       // eslint-disable-next-line no-console
       console.error(errorMessage);
-=======
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
     }
   }
 
   useIsomorphicLayoutEffect(function () {
     latestMapSelect.current = mapSelect;
-<<<<<<< HEAD
     latestMapOutput.current = mapOutput;
     latestMapOutputError.current = undefined;
     isMountedAndNotUnsubscribing.current = true; // This has to run after the other ref updates
     // to avoid using stale values in the flushed
     // callbacks or potentially overwriting a
     // changed `latestMapOutput.current`.
-=======
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
     if (latestIsAsync.current !== isAsync) {
       latestIsAsync.current = isAsync;
       renderQueue.flush(queueContext);
     }
-<<<<<<< HEAD
   });
   useIsomorphicLayoutEffect(function () {
     var onStoreChange = function onStoreChange() {
       if (isMountedAndNotUnsubscribing.current) {
-=======
-
-    latestMapOutput.current = mapOutput;
-    latestMapOutputError.current = undefined;
-    isMounted.current = true;
-  });
-  useIsomorphicLayoutEffect(function () {
-    var onStoreChange = function onStoreChange() {
-      if (isMounted.current) {
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
         try {
           var newMapOutput = latestMapSelect.current(registry.select, registry);
 
@@ -3464,11 +3001,7 @@ function useSelect(_mapSelect, deps) {
           latestMapOutputError.current = error;
         }
 
-<<<<<<< HEAD
         forceRender();
-=======
-        forceRender({});
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
       }
     }; // catch any possible state changes during mount before the subscription
     // could be set.
@@ -3488,11 +3021,7 @@ function useSelect(_mapSelect, deps) {
       }
     });
     return function () {
-<<<<<<< HEAD
       isMountedAndNotUnsubscribing.current = false;
-=======
-      isMounted.current = false;
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
       unsubscribe();
       renderQueue.flush(queueContext);
     };
@@ -3550,11 +3079,7 @@ function useSelect(_mapSelect, deps) {
  * component and update automatically if the price of a hammer ever changes in
  * the store.
  *
-<<<<<<< HEAD
  * @return {WPComponent} Enhanced component with merged state data props.
-=======
- * @return {Component} Enhanced component with merged state data props.
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  */
 
 var with_select_withSelect = function withSelect(mapSelectToProps) {
@@ -3603,12 +3128,8 @@ var with_select_withSelect = function withSelect(mapSelectToProps) {
  *
  * const SaleButton = ( { children } ) => {
  *   const { stockNumber } = useSelect(
-<<<<<<< HEAD
  *     ( select ) => select( 'my-shop' ).getStockNumber(),
  *     []
-=======
- *     ( select ) => select( 'my-shop' ).getStockNumber()
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  *   );
  *   const { startSale } = useDispatch( 'my-shop' );
  *   const onClick = useCallback( () => {
@@ -3685,11 +3206,7 @@ var use_dispatch_with_map_useDispatchWithMap = function useDispatchWithMap(dispa
   });
   return Object(external_this_wp_element_["useMemo"])(function () {
     var currentDispatchProps = currentDispatchMap.current(registry.dispatch, registry);
-<<<<<<< HEAD
     return Object(external_this_lodash_["mapValues"])(currentDispatchProps, function (dispatcher, propName) {
-=======
-    return Object(external_lodash_["mapValues"])(currentDispatchProps, function (dispatcher, propName) {
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
       if (typeof dispatcher !== 'function') {
         // eslint-disable-next-line no-console
         console.warn("Property ".concat(propName, " returned from dispatchMap in useDispatchWithMap must be a function."));
@@ -3800,11 +3317,7 @@ var use_dispatch_with_map_useDispatchWithMap = function useDispatchWithMap(dispa
  * returns an object with the same keys. For example, it should not contain
  * conditions under which a different value would be returned.
  *
-<<<<<<< HEAD
  * @return {WPComponent} Enhanced component with merged dispatcher props.
-=======
- * @return {Component} Enhanced component with merged dispatcher props.
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  */
 
 var with_dispatch_withDispatch = function withDispatch(mapDispatchToProps) {
@@ -3868,13 +3381,7 @@ var withRegistry = Object(external_this_wp_compose_["createHigherOrderComponent"
  * Internal dependencies
  */
 
-<<<<<<< HEAD
 /** @typedef {import('./registry').WPDataRegistry} WPDataRegistry */
-=======
-/**
- * @typedef {import('./registry').WPDataRegistry} WPDataRegistry
- */
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
 /**
  * Mark a selector as a registry selector.
@@ -3922,10 +3429,7 @@ function createRegistryControl(registryControl) {
 
 // CONCATENATED MODULE: ./node_modules/@wordpress/data/build-module/index.js
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "select", function() { return build_module_select; });
-<<<<<<< HEAD
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__experimentalResolveSelect", function() { return build_module_experimentalResolveSelect; });
-=======
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "dispatch", function() { return build_module_dispatch; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "subscribe", function() { return build_module_subscribe; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "registerGenericStore", function() { return build_module_registerGenericStore; });
@@ -3939,12 +3443,8 @@ function createRegistryControl(registryControl) {
 /* concated harmony reexport useRegistry */__webpack_require__.d(__webpack_exports__, "useRegistry", function() { return useRegistry; });
 /* concated harmony reexport useSelect */__webpack_require__.d(__webpack_exports__, "useSelect", function() { return useSelect; });
 /* concated harmony reexport useDispatch */__webpack_require__.d(__webpack_exports__, "useDispatch", function() { return use_dispatch; });
-<<<<<<< HEAD
 /* concated harmony reexport __unstableUseDispatchWithMap */__webpack_require__.d(__webpack_exports__, "__unstableUseDispatchWithMap", function() { return use_dispatch_with_map; });
 /* concated harmony reexport AsyncModeProvider */__webpack_require__.d(__webpack_exports__, "AsyncModeProvider", function() { return async_mode_provider_context; });
-=======
-/* concated harmony reexport __experimentalAsyncModeProvider */__webpack_require__.d(__webpack_exports__, "__experimentalAsyncModeProvider", function() { return async_mode_provider_context; });
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /* concated harmony reexport createRegistry */__webpack_require__.d(__webpack_exports__, "createRegistry", function() { return createRegistry; });
 /* concated harmony reexport createRegistrySelector */__webpack_require__.d(__webpack_exports__, "createRegistrySelector", function() { return createRegistrySelector; });
 /* concated harmony reexport createRegistryControl */__webpack_require__.d(__webpack_exports__, "createRegistryControl", function() { return createRegistryControl; });
@@ -4022,11 +3522,7 @@ function createRegistryControl(registryControl) {
  * The selector functions are been pre-bound to pass the current state automatically.
  * As a consumer, you need only pass arguments of the selector, if applicable.
  *
-<<<<<<< HEAD
  * @param {string} name Store name.
-=======
- * @param {string} name Store name
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  *
  * @example
  * ```js
@@ -4040,7 +3536,6 @@ function createRegistryControl(registryControl) {
 
 var build_module_select = default_registry.select;
 /**
-<<<<<<< HEAD
  * Given the name of a registered store, returns an object containing the store's
  * selectors pre-bound to state so that you only need to supply additional arguments,
  * and modified so that they return promises that resolve to their eventual values,
@@ -4060,19 +3555,13 @@ var build_module_select = default_registry.select;
 
 var build_module_experimentalResolveSelect = default_registry.__experimentalResolveSelect;
 /**
-=======
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  * Given the name of a registered store, returns an object of the store's action creators.
  * Calling an action creator will cause it to be dispatched, updating the state value accordingly.
  *
  * Note: Action creators returned by the dispatch will return a promise when
  * they are called.
  *
-<<<<<<< HEAD
  * @param {string} name Store name.
-=======
- * @param {string} name Store name
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  *
  * @example
  * ```js
@@ -4137,7 +3626,6 @@ var build_module_use = default_registry.use;
 
 /***/ }),
 
-<<<<<<< HEAD
 /***/ 46:
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4307,45 +3795,6 @@ module.exports = memize;
 /***/ }),
 
 /***/ 49:
-=======
-/***/ 37:
-/***/ (function(module, exports) {
-
-(function() { module.exports = this["wp"]["deprecated"]; }());
-
-/***/ }),
-
-/***/ 38:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _arrayWithHoles; });
-function _arrayWithHoles(arr) {
-  if (Array.isArray(arr)) return arr;
-}
-
-/***/ }),
-
-/***/ 39:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _nonIterableRest; });
-function _nonIterableRest() {
-  throw new TypeError("Invalid attempt to destructure non-iterable instance");
-}
-
-/***/ }),
-
-/***/ 41:
-/***/ (function(module, exports) {
-
-(function() { module.exports = this["wp"]["isShallowEqual"]; }());
-
-/***/ }),
-
-/***/ 43:
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4388,7 +3837,6 @@ function _asyncToGenerator(fn) {
 
 /***/ }),
 
-<<<<<<< HEAD
 /***/ 5:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -4419,797 +3867,6 @@ function _defineProperty(obj, key, value) {
 /***/ }),
 
 /***/ 64:
-=======
-/***/ 47:
-/***/ (function(module, exports, __webpack_require__) {
-
-/**
- * Copyright (c) 2014-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-var runtime = (function (exports) {
-  "use strict";
-
-  var Op = Object.prototype;
-  var hasOwn = Op.hasOwnProperty;
-  var undefined; // More compressible than void 0.
-  var $Symbol = typeof Symbol === "function" ? Symbol : {};
-  var iteratorSymbol = $Symbol.iterator || "@@iterator";
-  var asyncIteratorSymbol = $Symbol.asyncIterator || "@@asyncIterator";
-  var toStringTagSymbol = $Symbol.toStringTag || "@@toStringTag";
-
-  function wrap(innerFn, outerFn, self, tryLocsList) {
-    // If outerFn provided and outerFn.prototype is a Generator, then outerFn.prototype instanceof Generator.
-    var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator;
-    var generator = Object.create(protoGenerator.prototype);
-    var context = new Context(tryLocsList || []);
-
-    // The ._invoke method unifies the implementations of the .next,
-    // .throw, and .return methods.
-    generator._invoke = makeInvokeMethod(innerFn, self, context);
-
-    return generator;
-  }
-  exports.wrap = wrap;
-
-  // Try/catch helper to minimize deoptimizations. Returns a completion
-  // record like context.tryEntries[i].completion. This interface could
-  // have been (and was previously) designed to take a closure to be
-  // invoked without arguments, but in all the cases we care about we
-  // already have an existing method we want to call, so there's no need
-  // to create a new function object. We can even get away with assuming
-  // the method takes exactly one argument, since that happens to be true
-  // in every case, so we don't have to touch the arguments object. The
-  // only additional allocation required is the completion record, which
-  // has a stable shape and so hopefully should be cheap to allocate.
-  function tryCatch(fn, obj, arg) {
-    try {
-      return { type: "normal", arg: fn.call(obj, arg) };
-    } catch (err) {
-      return { type: "throw", arg: err };
-    }
-  }
-
-  var GenStateSuspendedStart = "suspendedStart";
-  var GenStateSuspendedYield = "suspendedYield";
-  var GenStateExecuting = "executing";
-  var GenStateCompleted = "completed";
-
-  // Returning this object from the innerFn has the same effect as
-  // breaking out of the dispatch switch statement.
-  var ContinueSentinel = {};
-
-  // Dummy constructor functions that we use as the .constructor and
-  // .constructor.prototype properties for functions that return Generator
-  // objects. For full spec compliance, you may wish to configure your
-  // minifier not to mangle the names of these two functions.
-  function Generator() {}
-  function GeneratorFunction() {}
-  function GeneratorFunctionPrototype() {}
-
-  // This is a polyfill for %IteratorPrototype% for environments that
-  // don't natively support it.
-  var IteratorPrototype = {};
-  IteratorPrototype[iteratorSymbol] = function () {
-    return this;
-  };
-
-  var getProto = Object.getPrototypeOf;
-  var NativeIteratorPrototype = getProto && getProto(getProto(values([])));
-  if (NativeIteratorPrototype &&
-      NativeIteratorPrototype !== Op &&
-      hasOwn.call(NativeIteratorPrototype, iteratorSymbol)) {
-    // This environment has a native %IteratorPrototype%; use it instead
-    // of the polyfill.
-    IteratorPrototype = NativeIteratorPrototype;
-  }
-
-  var Gp = GeneratorFunctionPrototype.prototype =
-    Generator.prototype = Object.create(IteratorPrototype);
-  GeneratorFunction.prototype = Gp.constructor = GeneratorFunctionPrototype;
-  GeneratorFunctionPrototype.constructor = GeneratorFunction;
-  GeneratorFunctionPrototype[toStringTagSymbol] =
-    GeneratorFunction.displayName = "GeneratorFunction";
-
-  // Helper for defining the .next, .throw, and .return methods of the
-  // Iterator interface in terms of a single ._invoke method.
-  function defineIteratorMethods(prototype) {
-    ["next", "throw", "return"].forEach(function(method) {
-      prototype[method] = function(arg) {
-        return this._invoke(method, arg);
-      };
-    });
-  }
-
-  exports.isGeneratorFunction = function(genFun) {
-    var ctor = typeof genFun === "function" && genFun.constructor;
-    return ctor
-      ? ctor === GeneratorFunction ||
-        // For the native GeneratorFunction constructor, the best we can
-        // do is to check its .name property.
-        (ctor.displayName || ctor.name) === "GeneratorFunction"
-      : false;
-  };
-
-  exports.mark = function(genFun) {
-    if (Object.setPrototypeOf) {
-      Object.setPrototypeOf(genFun, GeneratorFunctionPrototype);
-    } else {
-      genFun.__proto__ = GeneratorFunctionPrototype;
-      if (!(toStringTagSymbol in genFun)) {
-        genFun[toStringTagSymbol] = "GeneratorFunction";
-      }
-    }
-    genFun.prototype = Object.create(Gp);
-    return genFun;
-  };
-
-  // Within the body of any async function, `await x` is transformed to
-  // `yield regeneratorRuntime.awrap(x)`, so that the runtime can test
-  // `hasOwn.call(value, "__await")` to determine if the yielded value is
-  // meant to be awaited.
-  exports.awrap = function(arg) {
-    return { __await: arg };
-  };
-
-  function AsyncIterator(generator) {
-    function invoke(method, arg, resolve, reject) {
-      var record = tryCatch(generator[method], generator, arg);
-      if (record.type === "throw") {
-        reject(record.arg);
-      } else {
-        var result = record.arg;
-        var value = result.value;
-        if (value &&
-            typeof value === "object" &&
-            hasOwn.call(value, "__await")) {
-          return Promise.resolve(value.__await).then(function(value) {
-            invoke("next", value, resolve, reject);
-          }, function(err) {
-            invoke("throw", err, resolve, reject);
-          });
-        }
-
-        return Promise.resolve(value).then(function(unwrapped) {
-          // When a yielded Promise is resolved, its final value becomes
-          // the .value of the Promise<{value,done}> result for the
-          // current iteration.
-          result.value = unwrapped;
-          resolve(result);
-        }, function(error) {
-          // If a rejected Promise was yielded, throw the rejection back
-          // into the async generator function so it can be handled there.
-          return invoke("throw", error, resolve, reject);
-        });
-      }
-    }
-
-    var previousPromise;
-
-    function enqueue(method, arg) {
-      function callInvokeWithMethodAndArg() {
-        return new Promise(function(resolve, reject) {
-          invoke(method, arg, resolve, reject);
-        });
-      }
-
-      return previousPromise =
-        // If enqueue has been called before, then we want to wait until
-        // all previous Promises have been resolved before calling invoke,
-        // so that results are always delivered in the correct order. If
-        // enqueue has not been called before, then it is important to
-        // call invoke immediately, without waiting on a callback to fire,
-        // so that the async generator function has the opportunity to do
-        // any necessary setup in a predictable way. This predictability
-        // is why the Promise constructor synchronously invokes its
-        // executor callback, and why async functions synchronously
-        // execute code before the first await. Since we implement simple
-        // async functions in terms of async generators, it is especially
-        // important to get this right, even though it requires care.
-        previousPromise ? previousPromise.then(
-          callInvokeWithMethodAndArg,
-          // Avoid propagating failures to Promises returned by later
-          // invocations of the iterator.
-          callInvokeWithMethodAndArg
-        ) : callInvokeWithMethodAndArg();
-    }
-
-    // Define the unified helper method that is used to implement .next,
-    // .throw, and .return (see defineIteratorMethods).
-    this._invoke = enqueue;
-  }
-
-  defineIteratorMethods(AsyncIterator.prototype);
-  AsyncIterator.prototype[asyncIteratorSymbol] = function () {
-    return this;
-  };
-  exports.AsyncIterator = AsyncIterator;
-
-  // Note that simple async functions are implemented on top of
-  // AsyncIterator objects; they just return a Promise for the value of
-  // the final result produced by the iterator.
-  exports.async = function(innerFn, outerFn, self, tryLocsList) {
-    var iter = new AsyncIterator(
-      wrap(innerFn, outerFn, self, tryLocsList)
-    );
-
-    return exports.isGeneratorFunction(outerFn)
-      ? iter // If outerFn is a generator, return the full iterator.
-      : iter.next().then(function(result) {
-          return result.done ? result.value : iter.next();
-        });
-  };
-
-  function makeInvokeMethod(innerFn, self, context) {
-    var state = GenStateSuspendedStart;
-
-    return function invoke(method, arg) {
-      if (state === GenStateExecuting) {
-        throw new Error("Generator is already running");
-      }
-
-      if (state === GenStateCompleted) {
-        if (method === "throw") {
-          throw arg;
-        }
-
-        // Be forgiving, per 25.3.3.3.3 of the spec:
-        // https://people.mozilla.org/~jorendorff/es6-draft.html#sec-generatorresume
-        return doneResult();
-      }
-
-      context.method = method;
-      context.arg = arg;
-
-      while (true) {
-        var delegate = context.delegate;
-        if (delegate) {
-          var delegateResult = maybeInvokeDelegate(delegate, context);
-          if (delegateResult) {
-            if (delegateResult === ContinueSentinel) continue;
-            return delegateResult;
-          }
-        }
-
-        if (context.method === "next") {
-          // Setting context._sent for legacy support of Babel's
-          // function.sent implementation.
-          context.sent = context._sent = context.arg;
-
-        } else if (context.method === "throw") {
-          if (state === GenStateSuspendedStart) {
-            state = GenStateCompleted;
-            throw context.arg;
-          }
-
-          context.dispatchException(context.arg);
-
-        } else if (context.method === "return") {
-          context.abrupt("return", context.arg);
-        }
-
-        state = GenStateExecuting;
-
-        var record = tryCatch(innerFn, self, context);
-        if (record.type === "normal") {
-          // If an exception is thrown from innerFn, we leave state ===
-          // GenStateExecuting and loop back for another invocation.
-          state = context.done
-            ? GenStateCompleted
-            : GenStateSuspendedYield;
-
-          if (record.arg === ContinueSentinel) {
-            continue;
-          }
-
-          return {
-            value: record.arg,
-            done: context.done
-          };
-
-        } else if (record.type === "throw") {
-          state = GenStateCompleted;
-          // Dispatch the exception by looping back around to the
-          // context.dispatchException(context.arg) call above.
-          context.method = "throw";
-          context.arg = record.arg;
-        }
-      }
-    };
-  }
-
-  // Call delegate.iterator[context.method](context.arg) and handle the
-  // result, either by returning a { value, done } result from the
-  // delegate iterator, or by modifying context.method and context.arg,
-  // setting context.delegate to null, and returning the ContinueSentinel.
-  function maybeInvokeDelegate(delegate, context) {
-    var method = delegate.iterator[context.method];
-    if (method === undefined) {
-      // A .throw or .return when the delegate iterator has no .throw
-      // method always terminates the yield* loop.
-      context.delegate = null;
-
-      if (context.method === "throw") {
-        // Note: ["return"] must be used for ES3 parsing compatibility.
-        if (delegate.iterator["return"]) {
-          // If the delegate iterator has a return method, give it a
-          // chance to clean up.
-          context.method = "return";
-          context.arg = undefined;
-          maybeInvokeDelegate(delegate, context);
-
-          if (context.method === "throw") {
-            // If maybeInvokeDelegate(context) changed context.method from
-            // "return" to "throw", let that override the TypeError below.
-            return ContinueSentinel;
-          }
-        }
-
-        context.method = "throw";
-        context.arg = new TypeError(
-          "The iterator does not provide a 'throw' method");
-      }
-
-      return ContinueSentinel;
-    }
-
-    var record = tryCatch(method, delegate.iterator, context.arg);
-
-    if (record.type === "throw") {
-      context.method = "throw";
-      context.arg = record.arg;
-      context.delegate = null;
-      return ContinueSentinel;
-    }
-
-    var info = record.arg;
-
-    if (! info) {
-      context.method = "throw";
-      context.arg = new TypeError("iterator result is not an object");
-      context.delegate = null;
-      return ContinueSentinel;
-    }
-
-    if (info.done) {
-      // Assign the result of the finished delegate to the temporary
-      // variable specified by delegate.resultName (see delegateYield).
-      context[delegate.resultName] = info.value;
-
-      // Resume execution at the desired location (see delegateYield).
-      context.next = delegate.nextLoc;
-
-      // If context.method was "throw" but the delegate handled the
-      // exception, let the outer generator proceed normally. If
-      // context.method was "next", forget context.arg since it has been
-      // "consumed" by the delegate iterator. If context.method was
-      // "return", allow the original .return call to continue in the
-      // outer generator.
-      if (context.method !== "return") {
-        context.method = "next";
-        context.arg = undefined;
-      }
-
-    } else {
-      // Re-yield the result returned by the delegate method.
-      return info;
-    }
-
-    // The delegate iterator is finished, so forget it and continue with
-    // the outer generator.
-    context.delegate = null;
-    return ContinueSentinel;
-  }
-
-  // Define Generator.prototype.{next,throw,return} in terms of the
-  // unified ._invoke helper method.
-  defineIteratorMethods(Gp);
-
-  Gp[toStringTagSymbol] = "Generator";
-
-  // A Generator should always return itself as the iterator object when the
-  // @@iterator function is called on it. Some browsers' implementations of the
-  // iterator prototype chain incorrectly implement this, causing the Generator
-  // object to not be returned from this call. This ensures that doesn't happen.
-  // See https://github.com/facebook/regenerator/issues/274 for more details.
-  Gp[iteratorSymbol] = function() {
-    return this;
-  };
-
-  Gp.toString = function() {
-    return "[object Generator]";
-  };
-
-  function pushTryEntry(locs) {
-    var entry = { tryLoc: locs[0] };
-
-    if (1 in locs) {
-      entry.catchLoc = locs[1];
-    }
-
-    if (2 in locs) {
-      entry.finallyLoc = locs[2];
-      entry.afterLoc = locs[3];
-    }
-
-    this.tryEntries.push(entry);
-  }
-
-  function resetTryEntry(entry) {
-    var record = entry.completion || {};
-    record.type = "normal";
-    delete record.arg;
-    entry.completion = record;
-  }
-
-  function Context(tryLocsList) {
-    // The root entry object (effectively a try statement without a catch
-    // or a finally block) gives us a place to store values thrown from
-    // locations where there is no enclosing try statement.
-    this.tryEntries = [{ tryLoc: "root" }];
-    tryLocsList.forEach(pushTryEntry, this);
-    this.reset(true);
-  }
-
-  exports.keys = function(object) {
-    var keys = [];
-    for (var key in object) {
-      keys.push(key);
-    }
-    keys.reverse();
-
-    // Rather than returning an object with a next method, we keep
-    // things simple and return the next function itself.
-    return function next() {
-      while (keys.length) {
-        var key = keys.pop();
-        if (key in object) {
-          next.value = key;
-          next.done = false;
-          return next;
-        }
-      }
-
-      // To avoid creating an additional object, we just hang the .value
-      // and .done properties off the next function object itself. This
-      // also ensures that the minifier will not anonymize the function.
-      next.done = true;
-      return next;
-    };
-  };
-
-  function values(iterable) {
-    if (iterable) {
-      var iteratorMethod = iterable[iteratorSymbol];
-      if (iteratorMethod) {
-        return iteratorMethod.call(iterable);
-      }
-
-      if (typeof iterable.next === "function") {
-        return iterable;
-      }
-
-      if (!isNaN(iterable.length)) {
-        var i = -1, next = function next() {
-          while (++i < iterable.length) {
-            if (hasOwn.call(iterable, i)) {
-              next.value = iterable[i];
-              next.done = false;
-              return next;
-            }
-          }
-
-          next.value = undefined;
-          next.done = true;
-
-          return next;
-        };
-
-        return next.next = next;
-      }
-    }
-
-    // Return an iterator with no values.
-    return { next: doneResult };
-  }
-  exports.values = values;
-
-  function doneResult() {
-    return { value: undefined, done: true };
-  }
-
-  Context.prototype = {
-    constructor: Context,
-
-    reset: function(skipTempReset) {
-      this.prev = 0;
-      this.next = 0;
-      // Resetting context._sent for legacy support of Babel's
-      // function.sent implementation.
-      this.sent = this._sent = undefined;
-      this.done = false;
-      this.delegate = null;
-
-      this.method = "next";
-      this.arg = undefined;
-
-      this.tryEntries.forEach(resetTryEntry);
-
-      if (!skipTempReset) {
-        for (var name in this) {
-          // Not sure about the optimal order of these conditions:
-          if (name.charAt(0) === "t" &&
-              hasOwn.call(this, name) &&
-              !isNaN(+name.slice(1))) {
-            this[name] = undefined;
-          }
-        }
-      }
-    },
-
-    stop: function() {
-      this.done = true;
-
-      var rootEntry = this.tryEntries[0];
-      var rootRecord = rootEntry.completion;
-      if (rootRecord.type === "throw") {
-        throw rootRecord.arg;
-      }
-
-      return this.rval;
-    },
-
-    dispatchException: function(exception) {
-      if (this.done) {
-        throw exception;
-      }
-
-      var context = this;
-      function handle(loc, caught) {
-        record.type = "throw";
-        record.arg = exception;
-        context.next = loc;
-
-        if (caught) {
-          // If the dispatched exception was caught by a catch block,
-          // then let that catch block handle the exception normally.
-          context.method = "next";
-          context.arg = undefined;
-        }
-
-        return !! caught;
-      }
-
-      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
-        var entry = this.tryEntries[i];
-        var record = entry.completion;
-
-        if (entry.tryLoc === "root") {
-          // Exception thrown outside of any try block that could handle
-          // it, so set the completion value of the entire function to
-          // throw the exception.
-          return handle("end");
-        }
-
-        if (entry.tryLoc <= this.prev) {
-          var hasCatch = hasOwn.call(entry, "catchLoc");
-          var hasFinally = hasOwn.call(entry, "finallyLoc");
-
-          if (hasCatch && hasFinally) {
-            if (this.prev < entry.catchLoc) {
-              return handle(entry.catchLoc, true);
-            } else if (this.prev < entry.finallyLoc) {
-              return handle(entry.finallyLoc);
-            }
-
-          } else if (hasCatch) {
-            if (this.prev < entry.catchLoc) {
-              return handle(entry.catchLoc, true);
-            }
-
-          } else if (hasFinally) {
-            if (this.prev < entry.finallyLoc) {
-              return handle(entry.finallyLoc);
-            }
-
-          } else {
-            throw new Error("try statement without catch or finally");
-          }
-        }
-      }
-    },
-
-    abrupt: function(type, arg) {
-      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
-        var entry = this.tryEntries[i];
-        if (entry.tryLoc <= this.prev &&
-            hasOwn.call(entry, "finallyLoc") &&
-            this.prev < entry.finallyLoc) {
-          var finallyEntry = entry;
-          break;
-        }
-      }
-
-      if (finallyEntry &&
-          (type === "break" ||
-           type === "continue") &&
-          finallyEntry.tryLoc <= arg &&
-          arg <= finallyEntry.finallyLoc) {
-        // Ignore the finally entry if control is not jumping to a
-        // location outside the try/catch block.
-        finallyEntry = null;
-      }
-
-      var record = finallyEntry ? finallyEntry.completion : {};
-      record.type = type;
-      record.arg = arg;
-
-      if (finallyEntry) {
-        this.method = "next";
-        this.next = finallyEntry.finallyLoc;
-        return ContinueSentinel;
-      }
-
-      return this.complete(record);
-    },
-
-    complete: function(record, afterLoc) {
-      if (record.type === "throw") {
-        throw record.arg;
-      }
-
-      if (record.type === "break" ||
-          record.type === "continue") {
-        this.next = record.arg;
-      } else if (record.type === "return") {
-        this.rval = this.arg = record.arg;
-        this.method = "return";
-        this.next = "end";
-      } else if (record.type === "normal" && afterLoc) {
-        this.next = afterLoc;
-      }
-
-      return ContinueSentinel;
-    },
-
-    finish: function(finallyLoc) {
-      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
-        var entry = this.tryEntries[i];
-        if (entry.finallyLoc === finallyLoc) {
-          this.complete(entry.completion, entry.afterLoc);
-          resetTryEntry(entry);
-          return ContinueSentinel;
-        }
-      }
-    },
-
-    "catch": function(tryLoc) {
-      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
-        var entry = this.tryEntries[i];
-        if (entry.tryLoc === tryLoc) {
-          var record = entry.completion;
-          if (record.type === "throw") {
-            var thrown = record.arg;
-            resetTryEntry(entry);
-          }
-          return thrown;
-        }
-      }
-
-      // The context.catch method must only be called with a location
-      // argument that corresponds to a known catch block.
-      throw new Error("illegal catch attempt");
-    },
-
-    delegateYield: function(iterable, resultName, nextLoc) {
-      this.delegate = {
-        iterator: values(iterable),
-        resultName: resultName,
-        nextLoc: nextLoc
-      };
-
-      if (this.method === "next") {
-        // Deliberately forget the last sent value so that we don't
-        // accidentally pass it on to the delegate.
-        this.arg = undefined;
-      }
-
-      return ContinueSentinel;
-    }
-  };
-
-  // Regardless of whether this script is executing as a CommonJS module
-  // or not, return the runtime object so that we can declare the variable
-  // regeneratorRuntime in the outer scope, which allows this module to be
-  // injected easily by `bin/regenerator --include-runtime script.js`.
-  return exports;
-
-}(
-  // If this script is executing as a CommonJS module, use module.exports
-  // as the regeneratorRuntime namespace. Otherwise create a new empty
-  // object. Either way, the resulting object will be used to initialize
-  // the regeneratorRuntime variable at the top of this file.
-   true ? module.exports : undefined
-));
-
-try {
-  regeneratorRuntime = runtime;
-} catch (accidentalStrictMode) {
-  // This module should not be running in strict mode, so the above
-  // assignment should always work unless something is misconfigured. Just
-  // in case runtime.js accidentally runs in strict mode, we can escape
-  // strict mode using a global Function call. This could conceivably fail
-  // if a Content Security Policy forbids using Function, but in that case
-  // the proper solution is to fix the accidental strict mode problem. If
-  // you've misconfigured your bundler to force strict mode and applied a
-  // CSP to forbid Function, and you're not willing to fix either of those
-  // problems, please detail your unique predicament in a GitHub issue.
-  Function("r", "regeneratorRuntime = r")(runtime);
-}
-
-
-/***/ }),
-
-/***/ 65:
-/***/ (function(module, exports) {
-
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || new Function("return this")();
-} catch (e) {
-	// This works if the window reference is available
-	if (typeof window === "object") g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
-
-/***/ }),
-
-/***/ 7:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _objectSpread; });
-/* harmony import */ var _defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(10);
-
-function _objectSpread(target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i] != null ? arguments[i] : {};
-    var ownKeys = Object.keys(source);
-
-    if (typeof Object.getOwnPropertySymbols === 'function') {
-      ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {
-        return Object.getOwnPropertyDescriptor(source, sym).enumerable;
-      }));
-    }
-
-    ownKeys.forEach(function (key) {
-      Object(_defineProperty__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(target, key, source[key]);
-    });
-  }
-
-  return target;
-}
-
-/***/ }),
-
-/***/ 74:
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5524,7 +4181,6 @@ module.exports = EquivalentKeyMap;
 
 /***/ }),
 
-<<<<<<< HEAD
 /***/ 73:
 /***/ (function(module, exports) {
 
@@ -5556,24 +4212,6 @@ module.exports = g;
 /***/ (function(module, exports) {
 
 (function() { module.exports = this["wp"]["compose"]; }());
-=======
-/***/ 8:
-/***/ (function(module, exports) {
-
-(function() { module.exports = this["wp"]["compose"]; }());
-
-/***/ }),
-
-/***/ 98:
-/***/ (function(module, exports) {
-
-module.exports = isPromise;
-
-function isPromise(obj) {
-  return !!obj && (typeof obj === 'object' || typeof obj === 'function') && typeof obj.then === 'function';
-}
-
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
 /***/ })
 

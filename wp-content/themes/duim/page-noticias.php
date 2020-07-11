@@ -12,11 +12,39 @@ while(have_posts()) {
     get_template_part( 'incs/partial/all/all', 'banner-internal' );
 
 ?>
-    <div class="contact3 m-t-30">
-        <div class="row">
-
-        </div>
-    </div>
+    <div class="container-fluid">
+        <div class="spacer feature22">
+            <div class="container">
+                <div class="row m-t-0">
+                    <div class="col-lg-9">
+                        <?php 
+                        $args = array(
+                        'post_type'=> BLOGS,
+                        'posts_per_page'=> 10,
+                        'paged' => $paged
+                        );
+                        $loop = new WP_Query($args);
+                        if($loop->have_posts()):
+                            while($loop->have_posts()) : $loop->the_post();
+                            set_query_var('model', 1);
+                                get_template_part( 'incs/partial/blogs/blogs', 'template' );
+                            endwhile;
+                        endif;
+                        if(function_exists('wp_pagenavi')) { 
+                            echo '<div class="text-center clearfix mt-4">';
+                                $list = wp_pagenavi( array( 'echo' => false , 'query' => $loop  ) ); 
+                                print_r($list);
+                            echo '</div>';
+                        }
+                        ?>
+                    </div>
+                    <div class="col-lg-3">
+                        <?php get_sidebar(); ?>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div> 
 <?php 
 }
 add_footer('script_noticias');

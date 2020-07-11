@@ -19,26 +19,24 @@ get_header();
         $projects_calltoaction_text = get_field('projects_calltoaction_text');
         ?>
         <div class="container-fluid">
-            <div class="spacer">
-                <div class="container">
+            <div class="container">
 
-                    <h1><?php echo $title; ?></h1>
+                <h1><?php echo $title; ?></h1>
 
-                    <a href="<?php echo $projects_url;?>" target="_blank"><u><?php echo $projects_url?></u></a>
-                    
-                    <div class="clearfix" id="projects-gallery" data-load="ajax" data-parametros='action:"projectsGallery" , id: <?php echo $idProjects?>'>
-                        <?php 
-                        get_template_part( 'incs/partial/all/all', 'loading' );
-                        ?>
-                    </div>
-
-                    <article class="m-t-30 text-projects">
-                        <?php the_content(); ?>
-                    </article>
-
-                    <div class="mini-spacer"></div> 
-                    
+                <a href="<?php echo $projects_url;?>" target="_blank"><u><?php echo $projects_url?></u></a>
+                
+                <div class="clearfix" id="projects-gallery" data-load="ajax" data-parametros='action:"projectsGallery" , id: <?php echo $idProjects?>'>
+                    <?php 
+                    get_template_part( 'incs/partial/all/all', 'loading' );
+                    ?>
                 </div>
+
+                <article class="m-t-30 text-projects">
+                    <?php the_content(); ?>
+                </article>
+
+                <div class="mini-spacer"></div> 
+                
             </div>
             <div class="spacer bg-info">
                 <div class="container">

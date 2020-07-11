@@ -82,25 +82,16 @@ this["wp"] = this["wp"] || {}; this["wp"]["dataControls"] =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-<<<<<<< HEAD
 /******/ 	return __webpack_require__(__webpack_require__.s = 398);
-=======
-/******/ 	return __webpack_require__(__webpack_require__.s = 317);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /******/ })
 /************************************************************************/
 /******/ ({
 
-<<<<<<< HEAD
 /***/ 18:
-=======
-/***/ 17:
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 
-<<<<<<< HEAD
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js
 var arrayLikeToArray = __webpack_require__(25);
 
@@ -118,31 +109,12 @@ var unsupportedIterableToArray = __webpack_require__(27);
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js
 function _nonIterableSpread() {
   throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
-=======
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js
-function _arrayWithoutHoles(arr) {
-  if (Array.isArray(arr)) {
-    for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {
-      arr2[i] = arr[i];
-    }
-
-    return arr2;
-  }
-}
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/iterableToArray.js
-var iterableToArray = __webpack_require__(30);
-
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js
-function _nonIterableSpread() {
-  throw new TypeError("Invalid attempt to spread non-iterable instance");
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 }
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _toConsumableArray; });
 
 
 
-<<<<<<< HEAD
 
 function _toConsumableArray(arr) {
   return _arrayWithoutHoles(arr) || Object(iterableToArray["a" /* default */])(arr) || Object(unsupportedIterableToArray["a" /* default */])(arr) || _nonIterableSpread();
@@ -181,38 +153,22 @@ function _unsupportedIterableToArray(o, minLen) {
   if (n === "Object" && o.constructor) n = o.constructor.name;
   if (n === "Map" || n === "Set") return Array.from(n);
   if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return Object(_arrayLikeToArray__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(o, minLen);
-=======
-function _toConsumableArray(arr) {
-  return _arrayWithoutHoles(arr) || Object(iterableToArray["a" /* default */])(arr) || _nonIterableSpread();
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 }
 
 /***/ }),
 
-<<<<<<< HEAD
 /***/ 35:
-=======
-/***/ 30:
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _iterableToArray; });
 function _iterableToArray(iter) {
-<<<<<<< HEAD
   if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter);
-=======
-  if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 }
 
 /***/ }),
 
-<<<<<<< HEAD
 /***/ 398:
-=======
-/***/ 317:
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -221,13 +177,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "select", function() { return select; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "dispatch", function() { return dispatch; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "controls", function() { return controls; });
-<<<<<<< HEAD
 /* harmony import */ var _babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(18);
 /* harmony import */ var _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(42);
-=======
-/* harmony import */ var _babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(17);
-/* harmony import */ var _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(34);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /* harmony import */ var _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _wordpress_data__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4);
 /* harmony import */ var _wordpress_data__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_wordpress_data__WEBPACK_IMPORTED_MODULE_2__);
@@ -248,17 +199,10 @@ __webpack_require__.r(__webpack_exports__);
  * import { apiFetch } from '@wordpress/data-controls';
  *
  * // Action generator using apiFetch
-<<<<<<< HEAD
  * export function* myAction() {
  * 	const path = '/v2/my-api/items';
  * 	const items = yield apiFetch( { path } );
  * 	// do something with the items.
-=======
- * export function* myAction {
- *		const path = '/v2/my-api/items';
- *		const items = yield apiFetch( { path } );
- *		// do something with the items.
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  * }
  * ```
  *
@@ -287,15 +231,9 @@ var apiFetch = function apiFetch(request) {
  * import { select } from '@wordpress/data-controls';
  *
  * // Action generator using select
-<<<<<<< HEAD
  * export function* myAction() {
  * 	const isSidebarOpened = yield select( 'core/edit-post', 'isEditorSideBarOpened' );
  * 	// do stuff with the result from the select.
-=======
- * export function* myAction {
- *		const isSidebarOpened = yield select( 'core/edit-post', 'isEditorSideBarOpened' );
- *		// do stuff with the result from the select.
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  * }
  * ```
  *
@@ -326,15 +264,9 @@ function select(storeKey, selectorName) {
  * import { dispatch } from '@wordpress/data-controls';
  *
  * // Action generator using dispatch
-<<<<<<< HEAD
  * export function* myAction() {
  * 	yield dispatch( 'core/edit-post', 'togglePublishSidebar' );
  * 	// do some other things.
-=======
- * export function* myAction {
- *   yield dispatch( 'core/edit-post' ).togglePublishSidebar();
- *   // do some other things.
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  * }
  * ```
  *
@@ -354,49 +286,6 @@ function dispatch(storeKey, actionName) {
   };
 }
 /**
-<<<<<<< HEAD
-=======
- * Utility for returning a promise that handles a selector with a resolver.
- *
- * @param {Object} registry             The data registry.
- * @param {Object} options
- * @param {string} options.storeKey     The store the selector belongs to
- * @param {string} options.selectorName The selector name
- * @param {Array}  options.args         The arguments fed to the selector
- *
- * @return {Promise}  A promise for resolving the given selector.
- */
-
-var resolveSelect = function resolveSelect(registry, _ref) {
-  var storeKey = _ref.storeKey,
-      selectorName = _ref.selectorName,
-      args = _ref.args;
-  return new Promise(function (resolve) {
-    var hasFinished = function hasFinished() {
-      return registry.select('core/data').hasFinishedResolution(storeKey, selectorName, args);
-    };
-
-    var getResult = function getResult() {
-      return registry.select(storeKey)[selectorName].apply(null, args);
-    }; // trigger the selector (to trigger the resolver)
-
-
-    var result = getResult();
-
-    if (hasFinished()) {
-      return resolve(result);
-    }
-
-    var unsubscribe = registry.subscribe(function () {
-      if (hasFinished()) {
-        unsubscribe();
-        resolve(getResult());
-      }
-    });
-  });
-};
-/**
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  * The default export is what you use to register the controls with your custom
  * store.
  *
@@ -412,11 +301,7 @@ var resolveSelect = function resolveSelect(registry, _ref) {
  * import * as actions from './actions';
  * import * as resolvers from './resolvers';
  *
-<<<<<<< HEAD
  * registerStore( 'my-custom-store', {
-=======
- * registerStore ( 'my-custom-store', {
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  * 	reducer,
  * 	controls,
  * 	actions,
@@ -429,7 +314,6 @@ var resolveSelect = function resolveSelect(registry, _ref) {
  *                  store.
  */
 
-<<<<<<< HEAD
 var controls = {
   API_FETCH: function API_FETCH(_ref) {
     var request = _ref.request;
@@ -452,35 +336,6 @@ var controls = {
       var storeKey = _ref3.storeKey,
           actionName = _ref3.actionName,
           args = _ref3.args;
-=======
-
-var controls = {
-  API_FETCH: function API_FETCH(_ref2) {
-    var request = _ref2.request;
-    return _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_1___default()(request);
-  },
-  SELECT: Object(_wordpress_data__WEBPACK_IMPORTED_MODULE_2__["createRegistryControl"])(function (registry) {
-    return function (_ref3) {
-      var _registry$select;
-
-      var storeKey = _ref3.storeKey,
-          selectorName = _ref3.selectorName,
-          args = _ref3.args;
-      return registry.select(storeKey)[selectorName].hasResolver ? resolveSelect(registry, {
-        storeKey: storeKey,
-        selectorName: selectorName,
-        args: args
-      }) : (_registry$select = registry.select(storeKey))[selectorName].apply(_registry$select, Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(args));
-    };
-  }),
-  DISPATCH: Object(_wordpress_data__WEBPACK_IMPORTED_MODULE_2__["createRegistryControl"])(function (registry) {
-    return function (_ref4) {
-      var _registry$dispatch;
-
-      var storeKey = _ref4.storeKey,
-          actionName = _ref4.actionName,
-          args = _ref4.args;
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
       return (_registry$dispatch = registry.dispatch(storeKey))[actionName].apply(_registry$dispatch, Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(args));
     };
   })
@@ -489,7 +344,6 @@ var controls = {
 
 /***/ }),
 
-<<<<<<< HEAD
 /***/ 4:
 /***/ (function(module, exports) {
 
@@ -501,19 +355,6 @@ var controls = {
 /***/ (function(module, exports) {
 
 (function() { module.exports = this["wp"]["apiFetch"]; }());
-=======
-/***/ 34:
-/***/ (function(module, exports) {
-
-(function() { module.exports = this["wp"]["apiFetch"]; }());
-
-/***/ }),
-
-/***/ 4:
-/***/ (function(module, exports) {
-
-(function() { module.exports = this["wp"]["data"]; }());
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
 /***/ })
 

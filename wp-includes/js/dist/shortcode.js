@@ -82,11 +82,7 @@ this["wp"] = this["wp"] || {}; this["wp"]["shortcode"] =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-<<<<<<< HEAD
 /******/ 	return __webpack_require__(__webpack_require__.s = 415);
-=======
-/******/ 	return __webpack_require__(__webpack_require__.s = 336);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -98,11 +94,7 @@ this["wp"] = this["wp"] || {}; this["wp"]["shortcode"] =
 
 /***/ }),
 
-<<<<<<< HEAD
 /***/ 415:
-=======
-/***/ 336:
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -115,11 +107,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fromMatch", function() { return fromMatch; });
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
-<<<<<<< HEAD
 /* harmony import */ var memize__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(46);
-=======
-/* harmony import */ var memize__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(44);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /* harmony import */ var memize__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(memize__WEBPACK_IMPORTED_MODULE_1__);
 /**
  * External dependencies
@@ -475,7 +463,6 @@ Object(lodash__WEBPACK_IMPORTED_MODULE_0__["extend"])(shortcode.prototype, {
 
 /***/ }),
 
-<<<<<<< HEAD
 /***/ 46:
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -528,18 +515,6 @@ function memize( fn, options ) {
 	var tail;
 
 	options = options || {};
-=======
-/***/ 44:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = function memize( fn, options ) {
-	var size = 0,
-		maxSize, head, tail;
-
-	if ( options && options.maxSize ) {
-		maxSize = options.maxSize;
-	}
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
 	function memoized( /* ...args */ ) {
 		var node = head,
@@ -579,22 +554,14 @@ module.exports = function memize( fn, options ) {
 
 				// Adjust siblings to point to each other. If node was tail,
 				// this also handles new tail's empty `next` assignment.
-<<<<<<< HEAD
 				/** @type {MemizeCacheNode} */ ( node.prev ).next = node.next;
-=======
-				node.prev.next = node.next;
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 				if ( node.next ) {
 					node.next.prev = node.prev;
 				}
 
 				node.next = head;
 				node.prev = null;
-<<<<<<< HEAD
 				/** @type {MemizeCacheNode} */ ( head ).prev = node;
-=======
-				head.prev = node;
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 				head = node;
 			}
 
@@ -614,11 +581,7 @@ module.exports = function memize( fn, options ) {
 			args: args,
 
 			// Generate the result from original function
-<<<<<<< HEAD
 			val: fn.apply( null, args ),
-=======
-			val: fn.apply( null, args )
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 		};
 
 		// Don't need to check whether node is already head, since it would
@@ -634,15 +597,9 @@ module.exports = function memize( fn, options ) {
 		}
 
 		// Trim tail if we're reached max size and are pending cache insertion
-<<<<<<< HEAD
 		if ( size === /** @type {MemizeOptions} */ ( options ).maxSize ) {
 			tail = /** @type {MemizeCacheNode} */ ( tail ).prev;
 			/** @type {MemizeCacheNode} */ ( tail ).next = null;
-=======
-		if ( size === maxSize ) {
-			tail = tail.prev;
-			tail.next = null;
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 		} else {
 			size++;
 		}
@@ -660,7 +617,6 @@ module.exports = function memize( fn, options ) {
 
 	if ( false ) {}
 
-<<<<<<< HEAD
 	// Ignore reason: There's not a clear solution to create an intersection of
 	// the function with additional properties, where the goal is to retain the
 	// function signature of the incoming argument and add control properties
@@ -671,10 +627,6 @@ module.exports = function memize( fn, options ) {
 }
 
 module.exports = memize;
-=======
-	return memoized;
-};
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
 
 /***/ })

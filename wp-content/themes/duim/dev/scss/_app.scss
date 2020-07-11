@@ -1017,6 +1017,20 @@ Buttons
         background: $primary-dark;   
     }
 }
+.btn-themecolor-alt,
+.btn-themecolor-alt.disabled {
+    background: $themecolor-alt;
+    border: 1px solid $themecolor-alt;
+    
+    transition: 0.2s ease-in;
+    &:hover{
+        background: $themecolor-dark;
+        border: 1px solid $themecolor-dark;
+    }
+    &.active, &:active, &:focus{
+        background: $themecolor-dark;   
+    }
+}
 .btn-themecolor,
 .btn-themecolor.disabled {
     background: $themecolor;

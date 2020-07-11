@@ -82,16 +82,11 @@ this["wp"] = this["wp"] || {}; this["wp"]["viewport"] =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-<<<<<<< HEAD
 /******/ 	return __webpack_require__(__webpack_require__.s = 436);
-=======
-/******/ 	return __webpack_require__(__webpack_require__.s = 357);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /******/ })
 /************************************************************************/
 /******/ ({
 
-<<<<<<< HEAD
 /***/ 0:
 /***/ (function(module, exports) {
 
@@ -124,8 +119,6 @@ function _extends() {
 
 /***/ }),
 
-=======
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ 2:
 /***/ (function(module, exports) {
 
@@ -133,7 +126,6 @@ function _extends() {
 
 /***/ }),
 
-<<<<<<< HEAD
 /***/ 20:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -252,30 +244,17 @@ function _nonIterableRest() {
 /***/ }),
 
 /***/ 436:
-=======
-/***/ 357:
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 var actions_namespaceObject = {};
 __webpack_require__.r(actions_namespaceObject);
-<<<<<<< HEAD
 __webpack_require__.d(actions_namespaceObject, "setIsMatching", function() { return actions_setIsMatching; });
-=======
-__webpack_require__.d(actions_namespaceObject, "setIsMatching", function() { return setIsMatching; });
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 var selectors_namespaceObject = {};
 __webpack_require__.r(selectors_namespaceObject);
 __webpack_require__.d(selectors_namespaceObject, "isViewportMatch", function() { return isViewportMatch; });
 
-<<<<<<< HEAD
-=======
-// EXTERNAL MODULE: external "lodash"
-var external_lodash_ = __webpack_require__(2);
-
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 // EXTERNAL MODULE: external {"this":["wp","data"]}
 var external_this_wp_data_ = __webpack_require__(4);
 
@@ -313,11 +292,7 @@ function reducer() {
  *
  * @return {Object} Action object.
  */
-<<<<<<< HEAD
 function actions_setIsMatching(values) {
-=======
-function setIsMatching(values) {
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
   return {
     type: 'SET_IS_MATCHING',
     values: values
@@ -368,7 +343,6 @@ function isViewportMatch(state, query) {
   selectors: selectors_namespaceObject
 }));
 
-<<<<<<< HEAD
 // EXTERNAL MODULE: external {"this":"lodash"}
 var external_this_lodash_ = __webpack_require__(2);
 
@@ -440,12 +414,6 @@ var external_this_wp_element_ = __webpack_require__(0);
 
 
 
-=======
-// EXTERNAL MODULE: external {"this":["wp","compose"]}
-var external_this_wp_compose_ = __webpack_require__(8);
-
-// CONCATENATED MODULE: ./node_modules/@wordpress/viewport/build-module/with-viewport-match.js
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /**
  * External dependencies
  */
@@ -455,10 +423,6 @@ var external_this_wp_compose_ = __webpack_require__(8);
  */
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /**
  * Higher-order component creator, creating a new component which renders with
  * the given prop names, where the value passed to the underlying component is
@@ -484,7 +448,6 @@ var external_this_wp_compose_ = __webpack_require__(8);
  */
 
 var with_viewport_match_withViewportMatch = function withViewportMatch(queries) {
-<<<<<<< HEAD
   var useViewPortQueriesResult = function useViewPortQueriesResult() {
     return Object(external_this_lodash_["mapValues"])(queries, function (query) {
       var _query$split = query.split(' '),
@@ -511,13 +474,6 @@ var with_viewport_match_withViewportMatch = function withViewportMatch(queries) 
       return Object(external_this_wp_element_["createElement"])(WrappedComponent, Object(esm_extends["a" /* default */])({}, props, queriesResult));
     });
   }, 'withViewportMatch');
-=======
-  return Object(external_this_wp_compose_["createHigherOrderComponent"])(Object(external_this_wp_data_["withSelect"])(function (select) {
-    return Object(external_lodash_["mapValues"])(queries, function (query) {
-      return select('core/viewport').isViewportMatch(query);
-    });
-  }), 'withViewportMatch');
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 };
 
 /* harmony default export */ var with_viewport_match = (with_viewport_match_withViewportMatch);
@@ -567,18 +523,6 @@ var if_viewport_matches_ifViewportMatches = function ifViewportMatches(query) {
 /* concated harmony reexport ifViewportMatches */__webpack_require__.d(__webpack_exports__, "ifViewportMatches", function() { return if_viewport_matches; });
 /* concated harmony reexport withViewportMatch */__webpack_require__.d(__webpack_exports__, "withViewportMatch", function() { return with_viewport_match; });
 /**
-<<<<<<< HEAD
-=======
- * External dependencies
- */
-
-/**
- * WordPress dependencies
- */
-
-
-/**
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
  * Internal dependencies
  */
 
@@ -611,55 +555,8 @@ var OPERATORS = {
   '<': 'max-width',
   '>=': 'min-width'
 };
-<<<<<<< HEAD
 listener(BREAKPOINTS, OPERATORS);
 
-=======
-/**
- * Callback invoked when media query state should be updated. Is invoked a
- * maximum of one time per call stack.
- */
-
-var build_module_setIsMatching = Object(external_lodash_["debounce"])(function () {
-  var values = Object(external_lodash_["mapValues"])(build_module_queries, function (query) {
-    return query.matches;
-  });
-  Object(external_this_wp_data_["dispatch"])('core/viewport').setIsMatching(values);
-}, {
-  leading: true
-});
-/**
- * Hash of breakpoint names with generated MediaQueryList for corresponding
- * media query.
- *
- * @see https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia
- * @see https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList
- *
- * @type {Object<string,MediaQueryList>}
- */
-
-var build_module_queries = Object(external_lodash_["reduce"])(BREAKPOINTS, function (result, width, name) {
-  Object(external_lodash_["forEach"])(OPERATORS, function (condition, operator) {
-    var list = window.matchMedia("(".concat(condition, ": ").concat(width, "px)"));
-    list.addListener(build_module_setIsMatching);
-    var key = [operator, name].join(' ');
-    result[key] = list;
-  });
-  return result;
-}, {});
-window.addEventListener('orientationchange', build_module_setIsMatching); // Set initial values
-
-build_module_setIsMatching();
-build_module_setIsMatching.flush();
-
-
-/***/ }),
-
-/***/ 4:
-/***/ (function(module, exports) {
-
-(function() { module.exports = this["wp"]["data"]; }());
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
 /***/ }),
 

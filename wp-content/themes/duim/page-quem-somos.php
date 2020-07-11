@@ -31,5 +31,15 @@ get_header();
         get_template_part( 'incs/partial/projects/projects', 'featured' );
         get_template_part( 'incs/partial/services/services', 'featured' );
     }
+    add_footer('script_quemsomos');
+    function script_quemsomos() {
+        ?>
+        <script>
+            jQuery(function ($) {
+                $('#menu-quemsomos').addClass('active');
+            });
+        </script>
+        <?php
+    }
 get_footer();
 ?>

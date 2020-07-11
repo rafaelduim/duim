@@ -4,18 +4,19 @@ function wd_pagination($html) {
 	$out = '';
  
 	//wrap a's and span's in li's
-	$out = str_replace("<a","<a",$html);	
-	$out = str_replace("</a>","</a>",$out);
-	$out = str_replace("<span","<span",$out);	
-	$out = str_replace("</span>","</span>",$out);
-	$out = str_replace("<div class='wp-pagenavi'>","",$out);
+	$out = str_replace("<a","<li class='page-item'><a class='page-link'",$html);	
+	$out = str_replace("</a>","</a></li>",$out);
+	$out = str_replace("<span","<li class='page-item'><a class='page-link'",$out);	
+	$out = str_replace("</span>","</a></li>",$out);
+	$out = str_replace("<div class='wp-pagenavi' role='navigation'>","",$out);
 	$out = str_replace("</div>","",$out);
  
 	return '<div class="text-center">
 			<ul class="pagination">'.$out.'</ul>
 		</div>';
 }
-// add_filter( 'wp_pagenavi', 'wd_pagination', 10, 2 );
+add_filter( 'wp_pagenavi', 'wd_pagination', 10, 2 );
+
 
 #region REMOVER SLUG FOR POST
 function na_remove_slug( $post_link, $post, $leavename ) {

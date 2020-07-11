@@ -82,25 +82,16 @@ this["wp"] = this["wp"] || {}; this["wp"]["priorityQueue"] =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-<<<<<<< HEAD
 /******/ 	return __webpack_require__(__webpack_require__.s = 451);
-=======
-/******/ 	return __webpack_require__(__webpack_require__.s = 330);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /******/ })
 /************************************************************************/
 /******/ ({
 
-<<<<<<< HEAD
 /***/ 451:
-=======
-/***/ 330:
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-<<<<<<< HEAD
 
 // CONCATENATED MODULE: ./node_modules/@wordpress/priority-queue/build-module/request-idle-callback.js
 /**
@@ -158,10 +149,6 @@ function createRequestIdleCallback() {
  * @property {WPPriorityQueueFlush} flush Flush queue for context.
  */
 
-=======
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createQueue", function() { return createQueue; });
-var requestIdleCallback = window.requestIdleCallback ? window.requestIdleCallback : window.requestAnimationFrame;
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 /**
  * Creates a context-aware queue that only executes
  * the last task of a given context.
@@ -182,7 +169,6 @@ var requestIdleCallback = window.requestIdleCallback ? window.requestIdleCallbac
  * queue.add( ctx2, () => console.log( 'This will be printed second' ) );
  *```
  *
-<<<<<<< HEAD
  * @return {WPPriorityQueue} Queue object with `add` and `flush` methods.
  */
 
@@ -209,24 +195,12 @@ var build_module_createQueue = function createQueue() {
       return deadline.timeRemaining() > 0;
     };
 
-=======
- * @return {Object} Queue object with `add` and `flush` methods.
- */
-
-var createQueue = function createQueue() {
-  var waitingList = [];
-  var elementsMap = new WeakMap();
-  var isRunning = false;
-
-  var runWaitingList = function runWaitingList(deadline) {
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
     do {
       if (waitingList.length === 0) {
         isRunning = false;
         return;
       }
 
-<<<<<<< HEAD
       var nextElement =
       /** @type {WPPriorityQueueContext} */
       waitingList.shift();
@@ -248,15 +222,6 @@ var createQueue = function createQueue() {
    * @param {WPPriorityQueueCallback} item    Callback function.
    */
 
-=======
-      var nextElement = waitingList.shift();
-      elementsMap.get(nextElement)();
-      elementsMap.delete(nextElement);
-    } while (deadline && deadline.timeRemaining && deadline.timeRemaining() > 0);
-
-    requestIdleCallback(runWaitingList);
-  };
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
   var add = function add(element, item) {
     if (!elementsMap.has(element)) {
@@ -267,7 +232,6 @@ var createQueue = function createQueue() {
 
     if (!isRunning) {
       isRunning = true;
-<<<<<<< HEAD
       request_idle_callback(runWaitingList);
     }
   };
@@ -282,18 +246,12 @@ var createQueue = function createQueue() {
    * @return {boolean} Whether flush was performed.
    */
 
-=======
-      requestIdleCallback(runWaitingList);
-    }
-  };
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
 
   var flush = function flush(element) {
     if (!elementsMap.has(element)) {
       return false;
     }
 
-<<<<<<< HEAD
     var index = waitingList.indexOf(element);
     waitingList.splice(index, 1);
     var callback =
@@ -301,11 +259,6 @@ var createQueue = function createQueue() {
     elementsMap.get(element);
     elementsMap.delete(element);
     callback();
-=======
-    elementsMap.delete(element);
-    var index = waitingList.indexOf(element);
-    waitingList.splice(index, 1);
->>>>>>> 6de4b4bf72915f854124ddb0aca4294fc89b64b5
     return true;
   };
 
