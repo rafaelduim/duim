@@ -2,8 +2,8 @@
 
 class PsnThemes {
     function __construct() {
-        $this->template_name = 'Duim';
-        $this->slug = 'duim';
+        $this->template_name = 'Fazendo Freela';
+        $this->slug = 'ff-template';
         $this->url_site = get_bloginfo("url");
         $this->url_template = get_template_directory_uri();
     }
