@@ -45,11 +45,12 @@ $linkArchiveServices = get_post_type_archive_link(SERVICES);
             <a href="javascript:void(0)" class="close-icons tgl-cl"><i class="ti-close"></i></a>
             <ul class="nav-menu">
                 <li><a href="<?php echo $PsnThemes->getUrlSite(); ?>"><img src="<?php echo $psn_themes_logo; ?>" alt="<?php echo $PsnThemes->getTemplateName(); ?>" /></a></li>
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="<?php echo $PsnThemes->getUrlSite(); ?>/quem-somos">Quem Somos</a></li>
-                <li><a href="<?php echo $linkArchiveProjects; ?>">Projetos</a></li>
-                <li><a href="<?php echo $linkArchiveServices; ?>">Serviços</a></li>
-                <li><a href="<?php echo $PsnThemes->getUrlSite(); ?>/contato">Contato</a></li>
+                <li id="menu-home"><a href="#">Home</a></li>
+                <li id="menu-quemsomos"><a href="<?php echo $PsnThemes->getUrlSite(); ?>/quem-somos">Quem Somos</a></li>
+                <li id="menu-projetos"><a href="<?php echo $linkArchiveProjects; ?>">Projetos</a></li>
+                <li id="menu-servicos"><a href="<?php echo $linkArchiveServices; ?>">Serviços</a></li>
+                <li id="menu-noticias"><a href="<?php echo $PsnThemes->getUrlSite(); ?>/noticias">Noticias</a></li>
+                <li id="menu-contato"><a href="<?php echo $PsnThemes->getUrlSite(); ?>/contato">Contato</a></li>
             </ul>
             <ul class="info-nav">
                 <li class="half-width"><a href="mailto:<?php echo $psn_themes_footer_email; ?>"><i class="fa fa-envelope text-info"></i> <?php echo $psn_themes_footer_email; ?></a></li>

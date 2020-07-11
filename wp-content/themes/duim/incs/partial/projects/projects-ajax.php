@@ -66,7 +66,7 @@ function projectsFeatured(){
                 ?>
                     <div class="row">
                         <div class="col-md-12 m-t-40 text-center">
-                            <a class="btn btn-success-gradiant btn-md btn-arrow" href="<?php echo $linkArchive; ?>"><span>Ver mais <i class="ti-arrow-right"></i></span></a>
+                            <a class="btn btn-themecolor-alt btn-md btn-arrow" href="<?php echo $linkArchive; ?>"><span>Ver mais <i class="ti-arrow-right"></i></span></a>
                         </div>
                     </div>
                 <?php 

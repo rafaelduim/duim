@@ -581,6 +581,9 @@ Background Colors
 .bg-twitter {
     background-color: $twitter;
 }
+.bg-primary-gradiant{
+    @include linear-gradient (to right, $primary 0%, $color-extra 100%);
+}
 .bg-success-gradiant{
     @include linear-gradient (to right, $success 0%, $success-dark 100%);
 }
@@ -1014,6 +1017,20 @@ Buttons
         background: $primary-dark;   
     }
 }
+.btn-themecolor-alt,
+.btn-themecolor-alt.disabled {
+    background: $themecolor-alt;
+    border: 1px solid $themecolor-alt;
+    
+    transition: 0.2s ease-in;
+    &:hover{
+        background: $themecolor-dark;
+        border: 1px solid $themecolor-dark;
+    }
+    &.active, &:active, &:focus{
+        background: $themecolor-dark;   
+    }
+}
 .btn-themecolor,
 .btn-themecolor.disabled {
     background: $themecolor;
@@ -1132,6 +1149,20 @@ Buttons
     
     &:hover{
         @include linear-gradient (to right, $success-dark 0%, $success 100%);
+        
+    }
+    &.active, &:active, &:focus{
+        box-shadow: 0px;
+        opacity: 1;
+    }
+}
+
+.btn-primary-gradiant{
+    @include linear-gradient (to right, $primary 0%, $color-extra 100%);
+    border:0px;
+    
+    &:hover{
+        @include linear-gradient (to right, $color-extra 0%, $primary 100%);
         
     }
     &.active, &:active, &:focus{

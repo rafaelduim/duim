@@ -12,7 +12,7 @@ $icon = get_field("category_projects_icon", $get_the_category[0]);
     <div class="card">
         <div class="row">
             <div class="col-md-5 icon-position" style="background-image:url(<?php echo $imagefull; ?>); background-size: cover; background-position: center;">
-                <a href="<?php echo get_category_link( $get_the_category[0]->term_id )?>" title="<?php echo $get_the_category[0]->name?>" class="icon-round bg-success-gradiant text-white display-5"><i class="<?php echo $icon; ?>"></i></a>
+                <a href="<?php echo get_category_link( $get_the_category[0]->term_id )?>" title="<?php echo $get_the_category[0]->name?>" class="icon-round bg-primary-gradiant text-white display-5"><i class="<?php echo $icon; ?>"></i></a>
             </div>
             <div class="col-md-7">
                 <div class="card-body p-40">

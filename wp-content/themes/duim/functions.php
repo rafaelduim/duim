@@ -52,5 +52,6 @@ add_action( 'admin_menu', 'remove_menus' );
 require_once('incs/partial/services/services-ajax.php');
 require_once('incs/partial/projects/projects-ajax.php');
 require_once('incs/partial/testimonials/testimonials-ajax.php');
+require_once('incs/partial/blogs/blogs-ajax.php');
 
 ?>

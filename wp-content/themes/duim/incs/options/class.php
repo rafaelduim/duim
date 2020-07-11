@@ -269,6 +269,54 @@ class PsnThemes {
             }        
         }
         add_action('customize_register', 'psn_theme_settings_footer');
+
+        function psn_theme_settings_blogs($wp_customize) {
+
+            $wp_customize->add_section( 'psn_theme_settings_blogs' , array(
+                'title'      => __( 'PsnThemes - Blog', '' ),
+                'priority'   => 30,
+            ) );
+
+            
+            $optionsArray = array(
+                array(
+                    'key' => 'psn_themes_blogs_title',
+                    'text' => __( 'Título', '' ),
+                    'type' => 'text'
+                ),
+                array(
+                    'key' => 'psn_themes_blogs_excerpt',
+                    'text' => __( 'Chamada', '' ),
+                    'type' => 'text'
+                )
+            );
+
+            foreach ($optionsArray as $value) {
+                $wp_customize->add_setting($value['key']);
+                $wp_customize->add_control(
+                    $value['key'], 
+                    array(
+                        'label'    => $value['text'],
+                        'section'  => 'psn_theme_settings_blogs',
+                        'settings' => $value['key'],
+                        'type'     => $value['type']
+                    )
+                ); 
+            }   
+            $wp_customize->add_setting('psn_themes_blogs_image');
+            $wp_customize->add_control( 
+                new WP_Customize_Image_Control( 
+                    $wp_customize, 
+                    'psn_themes_blogs_image',
+                    array(
+                        'label' => 'Imagem Banner',
+                        'section' => 'psn_theme_settings_blogs',
+                        'settings' => 'psn_themes_blogs_image',
+                    ) 
+                )
+            );   
+        }
+        add_action('customize_register', 'psn_theme_settings_blogs');
     }
 
     public function createLink($href,$title,$text,$target=''){

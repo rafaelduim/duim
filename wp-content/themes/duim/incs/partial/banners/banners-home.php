@@ -43,7 +43,7 @@ $PsnThemes = new PsnThemes();
                         <!-- Slide Background --><img src="<?php echo $b['image']; ?>" alt="<?php echo $b['title']; ?>" class="slide-image" />
                         <!-- Slide Text Layer -->
                         <div class="slide-text slide_style_left">
-                            <h2 data-animation="animated zoomInRight" class="bg-success-gradiant title"><?php echo $b['title']; ?></h2>
+                            <h2 data-animation="animated zoomInRight" class="bg-primary-gradiant title"><?php echo $b['title']; ?></h2>
                             <p data-animation="animated fadeInLeft">
                                 <a class="bg-white btn btn-md btn-arrow" <?php echo ( $b['link_external'] ? "target='_blank'" : "") ?>  href="<?php echo $b['link']; ?>"> <span>Saiba mais <i class="ti-arrow-right"></i></span> </a>
                             </p>

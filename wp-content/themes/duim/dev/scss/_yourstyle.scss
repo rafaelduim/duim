@@ -36,7 +36,7 @@ Header 17
 .header17 {
 	.navbar-brand {
 		img {
-			max-width: 140px;
+			max-width: 200px;
 		}
 	}
 	.h17-nav {
@@ -237,8 +237,8 @@ Footer 6
 .footer6 {
 	.round-social {
 		a {
-			background: $border;
-			color: $muted;
+			background: $color-extra;
+			color: $white;
 			width: 40px;
 			height: 40px;
 			line-height: 40px;
@@ -418,5 +418,52 @@ team 1
 #services-gallery {
 	.owl-stage-outer {
 		max-height: 500px;
+	}
+}
+
+/*******************
+Blog homepage 6
+*******************/
+.blog-home6{
+    .form-control{
+        padding:13px;
+    }
+    .blog-row{
+        margin-bottom:30px;
+        a{
+            color:$dark;
+            &:hover{
+                color:$themecolor;
+            }
+        }
+        h5{
+            font-weight: 500;
+            margin-top: 10px;
+        }
+    }
+}
+
+.pagination {
+	border-radius: 0;
+	li {
+		.page-link {
+			transition: .3s;
+			$w: 40px;
+			width: $w;
+			height: $w;
+			line-height: $w;
+			padding: 0;
+			text-align: center;
+			border: none;
+			margin-right: 5px;
+			border-radius: 50px !important;
+			border: 1px solid #eee;
+			background: #f1f1f1;
+			&:hover,
+			&[aria-current="page"] {
+				background: $themecolor;
+				color: #FFF;
+			}
+		}
 	}
 }

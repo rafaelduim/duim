@@ -9,7 +9,7 @@ $psn_themes_footer_email = get_theme_mod( 'psn_themes_footer_email' );
 $psn_themes_footer_copy = get_theme_mod( 'psn_themes_footer_copy' );
 
 ?>
-<footer class="footer6 bg-inverse spacer">
+<footer class="footer6 bg-primary spacer">
     <div class="container">
         <div class="row">
             <!-- coluumn -->
@@ -40,8 +40,8 @@ $psn_themes_footer_copy = get_theme_mod( 'psn_themes_footer_copy' );
                     <a href="<?php echo $psn_themes_social_instagram; ?>" class=""><i class="fa fa-instagram"></i></a>
                 </div>
             </div>
-            <div class="col-md-12 b-t m-t-40">
-                <div class="p-t-20"><?php echo $psn_themes_footer_copy?></div>
+            <div class="col-md-12 b-t m-t-40 text-center">
+                <div class="p-t-20 text-white"><?php echo $psn_themes_footer_copy?></div>
             </div>
         </div>
     </div>

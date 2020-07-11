@@ -75,4 +75,5 @@ function script_contato() {
     </script>
     <?php
 }
-get_footer(); ?>
+get_footer();
+?>

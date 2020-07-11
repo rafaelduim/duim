@@ -19,5 +19,15 @@ get_header();
     </div>
 </div>
 <?php 
+    add_footer('script_servicos');
+    function script_servicos() {
+        ?>
+        <script>
+            jQuery(function ($) {
+                $('#menu-servicos').addClass('active');
+            });
+        </script>
+        <?php
+    }
 get_footer();
 ?>
