@@ -1,0 +1,132 @@
+[24-Jan-2020 17:12:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function auth_redirect() in /home2/duimclientes/public_html/duim/wp-admin/admin.php:94
+Stack trace:
+#0 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/incs/include.php(11): include()
+#1 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/cadastro.php(33): include('/home2/duimclie...')
+#2 /home2/duimclientes/public_html/duim/wp-settings.php(360): include_once('/home2/duimclie...')
+#3 /home2/duimclientes/public_html/duim/wp-config.php(97): require_once('/home2/duimclie...')
+#4 /home2/duimclientes/public_html/duim/wp-load.php(37): require_once('/home2/duimclie...')
+#5 /home2/duimclientes/public_html/duim/wp-admin/admin.php(34): require_once('/home2/duimclie...')
+#6 /home2/duimclientes/public_html/duim/wp-admin/index.php(10): require_once('/home2/duimclie...')
+#7 {main}
+  thrown in /home2/duimclientes/public_html/duim/wp-admin/admin.php on line 94
+[24-Jan-2020 17:12:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function auth_redirect() in /home2/duimclientes/public_html/duim/wp-admin/admin.php:94
+Stack trace:
+#0 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/incs/include.php(11): include()
+#1 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/cadastro.php(33): include('/home2/duimclie...')
+#2 /home2/duimclientes/public_html/duim/wp-settings.php(360): include_once('/home2/duimclie...')
+#3 /home2/duimclientes/public_html/duim/wp-config.php(97): require_once('/home2/duimclie...')
+#4 /home2/duimclientes/public_html/duim/wp-load.php(37): require_once('/home2/duimclie...')
+#5 /home2/duimclientes/public_html/duim/wp-admin/admin.php(34): require_once('/home2/duimclie...')
+#6 /home2/duimclientes/public_html/duim/wp-admin/index.php(10): require_once('/home2/duimclie...')
+#7 {main}
+  thrown in /home2/duimclientes/public_html/duim/wp-admin/admin.php on line 94
+[24-Jan-2020 17:13:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function auth_redirect() in /home2/duimclientes/public_html/duim/wp-admin/admin.php:94
+Stack trace:
+#0 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/incs/include.php(11): include()
+#1 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/cadastro.php(33): include('/home2/duimclie...')
+#2 /home2/duimclientes/public_html/duim/wp-settings.php(360): include_once('/home2/duimclie...')
+#3 /home2/duimclientes/public_html/duim/wp-config.php(97): require_once('/home2/duimclie...')
+#4 /home2/duimclientes/public_html/duim/wp-load.php(37): require_once('/home2/duimclie...')
+#5 /home2/duimclientes/public_html/duim/wp-admin/admin.php(34): require_once('/home2/duimclie...')
+#6 /home2/duimclientes/public_html/duim/wp-admin/index.php(10): require_once('/home2/duimclie...')
+#7 {main}
+  thrown in /home2/duimclientes/public_html/duim/wp-admin/admin.php on line 94
+[24-Jan-2020 17:13:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function auth_redirect() in /home2/duimclientes/public_html/duim/wp-admin/admin.php:94
+Stack trace:
+#0 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/incs/include.php(11): include()
+#1 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/cadastro.php(33): include('/home2/duimclie...')
+#2 /home2/duimclientes/public_html/duim/wp-settings.php(360): include_once('/home2/duimclie...')
+#3 /home2/duimclientes/public_html/duim/wp-config.php(97): require_once('/home2/duimclie...')
+#4 /home2/duimclientes/public_html/duim/wp-load.php(37): require_once('/home2/duimclie...')
+#5 /home2/duimclientes/public_html/duim/wp-admin/admin.php(34): require_once('/home2/duimclie...')
+#6 /home2/duimclientes/public_html/duim/wp-admin/index.php(10): require_once('/home2/duimclie...')
+#7 {main}
+  thrown in /home2/duimclientes/public_html/duim/wp-admin/admin.php on line 94
+[24-Jan-2020 17:15:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function auth_redirect() in /home2/duimclientes/public_html/duim/wp-admin/admin.php:94
+Stack trace:
+#0 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/incs/include.php(11): include()
+#1 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/cadastro.php(33): include('/home2/duimclie...')
+#2 /home2/duimclientes/public_html/duim/wp-settings.php(360): include_once('/home2/duimclie...')
+#3 /home2/duimclientes/public_html/duim/wp-config.php(97): require_once('/home2/duimclie...')
+#4 /home2/duimclientes/public_html/duim/wp-load.php(37): require_once('/home2/duimclie...')
+#5 /home2/duimclientes/public_html/duim/wp-admin/admin.php(34): require_once('/home2/duimclie...')
+#6 /home2/duimclientes/public_html/duim/wp-admin/index.php(10): require_once('/home2/duimclie...')
+#7 {main}
+  thrown in /home2/duimclientes/public_html/duim/wp-admin/admin.php on line 94
+[24-Jan-2020 17:15:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function auth_redirect() in /home2/duimclientes/public_html/duim/wp-admin/admin.php:94
+Stack trace:
+#0 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/incs/include.php(11): include()
+#1 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/cadastro.php(33): include('/home2/duimclie...')
+#2 /home2/duimclientes/public_html/duim/wp-settings.php(360): include_once('/home2/duimclie...')
+#3 /home2/duimclientes/public_html/duim/wp-config.php(97): require_once('/home2/duimclie...')
+#4 /home2/duimclientes/public_html/duim/wp-load.php(37): require_once('/home2/duimclie...')
+#5 /home2/duimclientes/public_html/duim/wp-admin/admin.php(34): require_once('/home2/duimclie...')
+#6 /home2/duimclientes/public_html/duim/wp-admin/index.php(10): require_once('/home2/duimclie...')
+#7 {main}
+  thrown in /home2/duimclientes/public_html/duim/wp-admin/admin.php on line 94
+[24-Jan-2020 17:17:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function auth_redirect() in /home2/duimclientes/public_html/duim/wp-admin/admin.php:94
+Stack trace:
+#0 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/incs/include.php(11): include()
+#1 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/cadastro.php(33): include('/home2/duimclie...')
+#2 /home2/duimclientes/public_html/duim/wp-settings.php(360): include_once('/home2/duimclie...')
+#3 /home2/duimclientes/public_html/duim/wp-config.php(97): require_once('/home2/duimclie...')
+#4 /home2/duimclientes/public_html/duim/wp-load.php(37): require_once('/home2/duimclie...')
+#5 /home2/duimclientes/public_html/duim/wp-admin/admin.php(34): require_once('/home2/duimclie...')
+#6 /home2/duimclientes/public_html/duim/wp-admin/index.php(10): require_once('/home2/duimclie...')
+#7 {main}
+  thrown in /home2/duimclientes/public_html/duim/wp-admin/admin.php on line 94
+[24-Jan-2020 17:17:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function auth_redirect() in /home2/duimclientes/public_html/duim/wp-admin/admin.php:94
+Stack trace:
+#0 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/incs/include.php(11): include()
+#1 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/cadastro.php(33): include('/home2/duimclie...')
+#2 /home2/duimclientes/public_html/duim/wp-settings.php(360): include_once('/home2/duimclie...')
+#3 /home2/duimclientes/public_html/duim/wp-config.php(97): require_once('/home2/duimclie...')
+#4 /home2/duimclientes/public_html/duim/wp-load.php(37): require_once('/home2/duimclie...')
+#5 /home2/duimclientes/public_html/duim/wp-admin/admin.php(34): require_once('/home2/duimclie...')
+#6 /home2/duimclientes/public_html/duim/wp-admin/index.php(10): require_once('/home2/duimclie...')
+#7 {main}
+  thrown in /home2/duimclientes/public_html/duim/wp-admin/admin.php on line 94
+[24-Jan-2020 17:17:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function auth_redirect() in /home2/duimclientes/public_html/duim/wp-admin/admin.php:94
+Stack trace:
+#0 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/incs/include.php(11): include()
+#1 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/cadastro.php(33): include('/home2/duimclie...')
+#2 /home2/duimclientes/public_html/duim/wp-settings.php(360): include_once('/home2/duimclie...')
+#3 /home2/duimclientes/public_html/duim/wp-config.php(97): require_once('/home2/duimclie...')
+#4 /home2/duimclientes/public_html/duim/wp-load.php(37): require_once('/home2/duimclie...')
+#5 /home2/duimclientes/public_html/duim/wp-admin/admin.php(34): require_once('/home2/duimclie...')
+#6 /home2/duimclientes/public_html/duim/wp-admin/index.php(10): require_once('/home2/duimclie...')
+#7 {main}
+  thrown in /home2/duimclientes/public_html/duim/wp-admin/admin.php on line 94
+[24-Jan-2020 17:19:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function auth_redirect() in /home2/duimclientes/public_html/duim/wp-admin/admin.php:94
+Stack trace:
+#0 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/incs/include.php(11): include()
+#1 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/cadastro.php(33): include('/home2/duimclie...')
+#2 /home2/duimclientes/public_html/duim/wp-settings.php(360): include_once('/home2/duimclie...')
+#3 /home2/duimclientes/public_html/duim/wp-config.php(97): require_once('/home2/duimclie...')
+#4 /home2/duimclientes/public_html/duim/wp-load.php(37): require_once('/home2/duimclie...')
+#5 /home2/duimclientes/public_html/duim/wp-admin/admin.php(34): require_once('/home2/duimclie...')
+#6 /home2/duimclientes/public_html/duim/wp-admin/index.php(10): require_once('/home2/duimclie...')
+#7 {main}
+  thrown in /home2/duimclientes/public_html/duim/wp-admin/admin.php on line 94
+[24-Jan-2020 17:19:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function auth_redirect() in /home2/duimclientes/public_html/duim/wp-admin/admin.php:94
+Stack trace:
+#0 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/incs/include.php(11): include()
+#1 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/cadastro.php(33): include('/home2/duimclie...')
+#2 /home2/duimclientes/public_html/duim/wp-settings.php(360): include_once('/home2/duimclie...')
+#3 /home2/duimclientes/public_html/duim/wp-config.php(97): require_once('/home2/duimclie...')
+#4 /home2/duimclientes/public_html/duim/wp-load.php(37): require_once('/home2/duimclie...')
+#5 /home2/duimclientes/public_html/duim/wp-admin/admin.php(34): require_once('/home2/duimclie...')
+#6 /home2/duimclientes/public_html/duim/wp-admin/index.php(10): require_once('/home2/duimclie...')
+#7 {main}
+  thrown in /home2/duimclientes/public_html/duim/wp-admin/admin.php on line 94
+[24-Jan-2020 17:19:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function auth_redirect() in /home2/duimclientes/public_html/duim/wp-admin/admin.php:94
+Stack trace:
+#0 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/incs/include.php(11): include()
+#1 /home2/duimclientes/public_html/duim/wp-content/plugins/passoca-newsletter/cadastro.php(33): include('/home2/duimclie...')
+#2 /home2/duimclientes/public_html/duim/wp-settings.php(360): include_once('/home2/duimclie...')
+#3 /home2/duimclientes/public_html/duim/wp-config.php(97): require_once('/home2/duimclie...')
+#4 /home2/duimclientes/public_html/duim/wp-load.php(37): require_once('/home2/duimclie...')
+#5 /home2/duimclientes/public_html/duim/wp-admin/admin.php(34): require_once('/home2/duimclie...')
+#6 /home2/duimclientes/public_html/duim/wp-admin/index.php(10): require_once('/home2/duimclie...')
+#7 {main}
+  thrown in /home2/duimclientes/public_html/duim/wp-admin/admin.php on line 94
