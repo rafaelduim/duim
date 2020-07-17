@@ -12,31 +12,33 @@ $psn_themes_about_excerpt = get_theme_mod('psn_themes_about_excerpt');
             </div>
         </div>
         <?php 
-        $args = array(
-            'pagename'=> 'quem-somos',
-        );
-        $loop = new WP_Query($args);
-        $PsnThemes = new PsnThemes();
-        if($loop->have_posts()){
-            while($loop->have_posts()) { 
-                $loop->the_post();
-                $image = get_field('about_image');  
-        ?>
-                <div class="container-fluid">
-                    <div class="spacer feature22">
-                        <div class="container">
-                            <div class="row wrap-feature-22 m-t-0">
-                                <div class="col-lg-5" data-aos="flip-up" data-aos-duration="1200"> <img src="<?php echo $image['url']; ?>" class="rounded img-responsive" alt="<?php echo $PsnThemes->getTemplateName(); ?>" /> </div>
-                                <div class="col-lg-7">
-                                    <div class="text-box"> 
-                                        <?php the_content(); ?>
+        if(is_home()){
+            $args = array(
+                'pagename'=> 'quem-somos',
+            );
+            $loop = new WP_Query($args);
+            $PsnThemes = new PsnThemes();
+            if($loop->have_posts()){
+                while($loop->have_posts()) { 
+                    $loop->the_post();
+                    $image = get_field('about_image');  
+            ?>
+                    <div class="container-fluid">
+                        <div class="spacer feature22">
+                            <div class="container">
+                                <div class="row wrap-feature-22 m-t-0">
+                                    <div class="col-lg-5" data-aos="flip-up" data-aos-duration="1200"> <img src="<?php echo $image['url']; ?>" class="rounded img-responsive" alt="<?php echo $PsnThemes->getTemplateName(); ?>" /> </div>
+                                    <div class="col-lg-7">
+                                        <div class="text-box"> 
+                                            <?php the_content(); ?>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>  
-            </div> 
-        <?php } 
+                        </div>  
+                </div> 
+            <?php } 
+            }
         }
         ?>
         <!-- Row  -->

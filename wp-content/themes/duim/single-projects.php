@@ -14,6 +14,7 @@ get_header();
         get_template_part( 'incs/partial/all/all', 'banner-internal' );
 
         $projects_url = get_field('projects_url');
+        $title = get_the_title();
 
         $projects_calltoaction_title = get_field('projects_calltoaction_title');
         $projects_calltoaction_text = get_field('projects_calltoaction_text');
@@ -23,7 +24,7 @@ get_header();
 
                 <h1><?php echo $title; ?></h1>
 
-                <a href="<?php echo $projects_url;?>" target="_blank"><u><?php echo $projects_url?></u></a>
+                <a href="<?php echo $projects_url;?>" target="_blank"><?php echo $projects_url?><a>
                 
                 <div class="clearfix" id="projects-gallery" data-load="ajax" data-parametros='action:"projectsGallery" , id: <?php echo $idProjects?>'>
                     <?php 
